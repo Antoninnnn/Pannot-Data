@@ -75,25 +75,56 @@ def list_uniprot_attributes(protein_id):
 
 
 def extract_uniprot_fields(protein_id):
+    """
+    Safely extract common UniProt fields for a given protein.
+    Returns a dict with None or [] if fields are missing.
+    """
     data = get_protein_info(protein_id)
-    
+
+    # --- helpers ---
+    def safe_get(d, keys, default=None):
+        """Safely walk nested dict with a list of keys."""
+        for k in keys:
+            if isinstance(d, dict) and k in d:
+                d = d[k]
+            else:
+                return default
+        return d
+
+    def safe_list(lst, key):
+        """Extract a list of values for given key from list of dicts."""
+        return [item.get(key) for item in lst if key in item]
+
+    # --- extraction ---
     info = {
         "Accession": data.get("primaryAccession"),
         "EntryName": data.get("uniProtkbId"),
-        "Organism": data.get("organism", {}).get("scientificName"),
+        "Organism": safe_get(data, ["organism", "scientificName"]),
         "GeneSymbols": [g["geneName"]["value"] for g in data.get("genes", []) if "geneName" in g],
-        "ProteinName": data.get("proteinDescription", {}).get("recommendedName", {}).get("fullName", {}).get("value"),
-        "Sequence": data.get("sequence", {}).get("value"),
-        "Length": data.get("sequence", {}).get("length"),
-        "MolecularWeight": data.get("sequence", {}).get("molWeight"),
-        "ECNumbers": [ec["value"] for ec in data.get("proteinDescription", {}).get("recommendedName", {}).get("ecNumbers", [])],
-        "Keywords": [kw["name"] for kw in data.get("keywords", [])],
-        "CrossReferences": [ref["id"] for ref in data.get("dbReferences", [])],
+        "ProteinName": safe_get(data, ["proteinDescription", "recommendedName", "fullName", "value"]),
+        "Sequence": safe_get(data, ["sequence", "value"]),
+        "Length": safe_get(data, ["sequence", "length"]),
+        "MolecularWeight": safe_get(data, ["sequence", "molWeight"]),
+        "ECNumbers": [ec["value"] for ec in safe_get(data, ["proteinDescription", "recommendedName", "ecNumbers"], [])],
+        "Keywords": safe_list(data.get("keywords", []), "name"),
+        "CrossReferences": safe_list(data.get("dbReferences", []), "id"),
+        "Publications": [
+            safe_get(ref, ["citation", "title"])
+            for ref in data.get("references", [])
+            if safe_get(ref, ["citation", "title"])
+        ],
+        "Functions": [
+            safe_get(c, ["texts", 0, "value"])
+            for c in data.get("comments", [])
+            if c.get("commentType") == "FUNCTION" and safe_get(c, ["texts", 0, "value"])
+        ],
     }
+
     return info
 
+# Example usage
 if __name__ == "__main__":
-    protein_id = "P69905"
+    protein_id = "P69905"  # Hemoglobin alpha
     fields = extract_uniprot_fields(protein_id)
     for k, v in fields.items():
         print(f"{k}: {v}")
