@@ -1,0 +1,77 @@
+[
+    {
+        "instruction": "What molecular function does this protein have? Explain with evidence.",
+        "input": "Here is a protein sequence: {sequence}. Predict its molecular function.",
+        "output": "The predicted molecular function is {go_f}. Evidence comes from conserved residues {ft_act_site} and annotated binding sites {ft_binding}."
+    },
+    {
+        "instruction": "What molecular function does this protein have? Explain with evidence.",
+        "input": "UniProt entry {accession}, named {protein_name}. What is its molecular function?",
+        "output": "Molecular function: {go_f}. This aligns with the catalytic activity annotation {cc_catalytic_activity}."
+    },
+    {
+        "instruction": "What molecular function does this protein have? Explain with evidence.",
+        "input": "Protein length: {length}; Domains: {cc_domain}. Determine the molecular function.",
+        "output": "Molecular function is {go_f}, supported by the presence of domain {cc_domain} and motif {ft_motif}."
+    },
+    {
+        "instruction": "Describe the biological process this protein participates in, with reasoning.",
+        "input": "Protein {accession} has the name {protein_name}. What biological process is it involved in?",
+        "output": "Biological process: {go_p}. This is supported by pathway annotation {cc_pathway}."
+    },
+    {
+        "instruction": "Describe the biological process this protein participates in, with reasoning.",
+        "input": "Given sequence {sequence}, identify the biological process it participates in.",
+        "output": "The protein is involved in {go_p}, which is consistent with the annotated function {cc_function}."
+    },
+    {
+        "instruction": "Describe the biological process this protein participates in, with reasoning.",
+        "input": "Domains: {ft_domain}, Motifs: {ft_motif}. Which biological process does this suggest?",
+        "output": "Biological process: {go_p}. Reasoning: {ft_domain} and {ft_motif} are linked to this process."
+    },
+    {
+        "instruction": "Predict the cellular component and justify.",
+        "input": "For protein {accession}, predict its cellular component.",
+        "output": "Cellular component: {go_c}. This is consistent with subcellular location annotation {cc_subcellular_location}."
+    },
+    {
+        "instruction": "Predict the cellular component and justify.",
+        "input": "Sequence {sequence} contains the following signal peptide: {ft_signal}. Where is the protein located?",
+        "output": "Cellular component: {go_c}. The signal peptide {ft_signal} indicates this localization."
+    },
+    {
+        "instruction": "Predict the cellular component and justify.",
+        "input": "Protein {protein_name} with domains {cc_domain}. Predict its location.",
+        "output": "Cellular component: {go_c}. The presence of domain {cc_domain} is typical of proteins in this location."
+    },
+    {
+        "instruction": "Which GO terms apply to this sequence? Explain each with supporting residues.",
+        "input": "Sequence {sequence}. Which GO terms apply?",
+        "output": "GO terms: {go}. Supporting residues: {ft_act_site}, {ft_binding}."
+    },
+    {
+        "instruction": "Which GO terms apply to this sequence? Explain each with supporting residues.",
+        "input": "For UniProt accession {accession}, list the GO terms.",
+        "output": "GO terms: {go}. Each term is supported by annotated motifs {ft_motif} and domains {ft_domain}."
+    },
+    {
+        "instruction": "Which GO terms apply to this sequence? Explain each with supporting residues.",
+        "input": "Protein {protein_name}, length {length}, sequence features {feature_count}. Which GO terms apply?",
+        "output": "GO terms: {go}. Evidence: features such as {ft_domain} and {ft_site} support these assignments."
+    },
+    {
+        "instruction": "Explain how the sequence reveals the molecular function of this protein.",
+        "input": "Protein sequence: {sequence}. Explain its molecular function.",
+        "output": "The sequence encodes molecular function {go_f}. Evidence: active site {ft_act_site} and cofactor binding {cc_cofactor}."
+    },
+    {
+        "instruction": "Explain how the sequence reveals the molecular function of this protein.",
+        "input": "Sequence length: {length}; Conserved motifs: {ft_motif}. Explain the function.",
+        "output": "Molecular function {go_f} is inferred, since motifs {ft_motif} are associated with this activity."
+    },
+    {
+        "instruction": "Explain how the sequence reveals the molecular function of this protein.",
+        "input": "Protein {accession}, annotated catalytic activity {cc_catalytic_activity}. What does the sequence reveal?",
+        "output": "Sequence supports molecular function {go_f}. The catalytic annotation {cc_catalytic_activity} corresponds to this function."
+    }
+]

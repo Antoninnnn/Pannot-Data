@@ -1,51 +1,57 @@
 import requests
 
-def get_swissprot_ids(limit=500, max_results=5000):
+def get_swissprot_ids(max_results: int = 5000, limit: int = 500) -> list[str]:
     """
-    Fetch SwissProt protein accession IDs from UniProtKB.
-    
-    Parameters:
-        limit (int): number of results per request (max 500).
-        max_results (int): maximum number of results to fetch in total.
-    
-    Returns:
-        ids (list[str]): list of UniProt accession IDs.
+    Retrieve UniProtKB Swiss-Prot accession IDs from the UniProtKB API.
+
+    Parameters
+    ----------
+    max_results : int
+        Maximum number of accession IDs to fetch in total.
+    limit : int
+        Maximum number of results to fetch per request (page size).
+
+    Returns
+    -------
+    list[str]
+        List of retrieved accession IDs.
     """
     base_url = "https://rest.uniprot.org/uniprotkb/search"
-    query = "reviewed:true"  # SwissProt = reviewed entries
-    fields = "accession"
-    
-    ids = []
+    params = {
+        "query": "reviewed:true",   # Swiss-Prot entries
+        "fields": "accession",      # Only accession IDs
+        "format": "json",
+        "size": limit
+    }
+
+    accessions = []
     cursor = None
-    
-    while len(ids) < max_results:
-        params = {
-            "query": query,
-            "fields": fields,
-            "format": "json",
-            "size": limit,
-        }
+
+    while len(accessions) < max_results:
         if cursor:
             params["cursor"] = cursor
-        
+
         response = requests.get(base_url, params=params)
         response.raise_for_status()
         data = response.json()
-        
-        for result in data.get("results", []):
-            ids.append(result["primaryAccession"])
-        
-        # Stop if no more results
-        if "nextCursor" not in data:
+
+        # Extract accessions
+        for entry in data.get("results", []):
+            if "primaryAccession" in entry:
+                accessions.append(entry["primaryAccession"])
+                if len(accessions) >= max_results:
+                    break
+
+        # Pagination: stop if no nextCursor
+        cursor = data.get("nextCursor")
+        if not cursor:
             break
-        
-        cursor = data["nextCursor"]
-    
-    return ids
+
+    return accessions
 
 
-# Example usage:
 if __name__ == "__main__":
-    protein_ids = get_swissprot_ids(limit=200, max_results=300)
-    print("Retrieved", len(protein_ids), "SwissProt IDs")
-    print("List of the first 10 ids: ", protein_ids[:10])  # print first 10 IDs
+    ids = get_swissprot_ids(max_results=20, limit=10)
+    print(f"Retrieved {len(ids)} Swiss-Prot accession IDs:")
+    for i, acc in enumerate(ids, 1):
+        print(f"{i}: {acc}")
