@@ -1,0 +1,698 @@
+{
+  "1": {
+    "name": "oxidoreductases",
+    "subclasses": {
+      "1": {
+        "name": "acting on the CH-OH group of donors",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "3": "with oxygen as acceptor",
+          "4": "with a disulfide as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "9": "with a copper protein as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "2": {
+        "name": "acting on the aldehyde or oxo group of donors",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "3": "with oxygen as acceptor",
+          "4": "with a disulfide as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with other physiological acceptors"
+        }
+      },
+      "3": {
+        "name": "acting on the CH-CH group of donors",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "3": "with oxygen as acceptor",
+          "4": "with a disulfide as acceptor",
+          "5": "with a quinone or related compound as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "8": "with flavin as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "4": {
+        "name": "acting on the CH-NH2 group of donors",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "3": "with oxygen as acceptor",
+          "4": "with a disulfide as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "9": "with a copper protein as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "5": {
+        "name": "acting on the CH-NH group of donors",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "3": "with oxygen as acceptor",
+          "4": "with a disulfide as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "8": "with a flavin as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "6": {
+        "name": "acting on NADH or NADPH",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a heme protein as acceptor",
+          "3": "with oxygen as acceptor",
+          "4": "with a disulfide as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "6": "with a nitrogenous group as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "8": "with a flavin as acceptor",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "7": {
+        "name": "acting on other nitrogenous compounds as donors",
+        "subsubclasses": {
+          "1": "with NAD+ or NADP+ as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "3": "with oxygen as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "6": "with a nitrogenous group as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "8": {
+        "name": "acting on a sulfur group of donors",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "3": "with oxygen as acceptor",
+          "4": "with a disulfide as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "6": "with a nitrogenous group as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "9": {
+        "name": "acting on a heme group of donors",
+        "subsubclasses": {
+          "3": "with oxygen as acceptor",
+          "6": "with a nitrogenous group as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "10": {
+        "name": "acting on diphenols and related substances as donors",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "3": "with oxygen as acceptor",
+          "5": "with a quinone or related compound as acceptor",
+          "9": "with a copper protein as acceptor",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "11": {
+        "name": "acting on a peroxide as acceptor",
+        "subsubclasses": {
+          "1": "peroxidases",
+          "2": "with H2O2 as acceptor, one oxygen atom of which is incorporated into the product"
+        }
+      },
+      "12": {
+        "name": "acting on hydrogen as donor",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "13": {
+        "name": "acting on single donors with incorporation of molecular oxygen (oxygenases)",
+        "subsubclasses": {
+          "11": "with incorporation of two atoms of oxygen",
+          "12": "with incorporation of one atom of oxygen (internal monooxygenases or internal mixed-function oxidases)",
+          "99": "miscellaneous"
+        }
+      },
+      "14": {
+        "name": "acting on paired donors, with incorporation or reduction of molecular oxygen",
+        "subsubclasses": {
+          "11": "with 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors",
+          "12": "with NADH or NADPH as one donor, and incorporation of two atoms of oxygen into one donor",
+          "13": "with NADH or NADPH as one donor, and incorporation of one atom of oxygen",
+          "14": "with reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen",
+          "15": "with reduced iron–sulfur protein as one donor, and incorporation of one atom of oxygen",
+          "16": "with reduced pteridine as one donor, and incorporation of one atom of oxygen",
+          "17": "with reduced ascorbate as one donor, and incorporation of one atom of oxygen",
+          "18": "with another compound as one donor, and incorporation of one atom of oxygen",
+          "19": "with oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water",
+          "20": "with 2-oxoglutarate as one donor, and the other dehydrogenated",
+          "21": "with NADH or NADPH as one donor, and the other dehydrogenated",
+          "99": "miscellaneous"
+        }
+      },
+      "15": {
+        "name": "acting on superoxide radicals as acceptor",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "16": {
+        "name": "oxidising metal ions",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "3": "with oxygen as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "8": "with flavin as acceptor",
+          "9": "with a copper protein as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "17": {
+        "name": "acting on CH or CH2 groups",
+        "subsubclasses": {
+          "1": "with NAD or NADP as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "3": "with oxygen as acceptor",
+          "4": "with a disulfide as acceptor",
+          "5": "with a quinone or similar compound as acceptor",
+          "7": "with an iron–sulfur protein as acceptor",
+          "8": "with a flavin as acceptor",
+          "9": "with a copper protein as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "18": {
+        "name": "acting on iron-sulfur proteins as donors",
+        "subsubclasses": {
+          "1": "with NAD+ or NADP+ as acceptor",
+          "3": "with H+ as acceptor",
+          "6": "with dinitrogen as acceptor",
+          "96": "with other, known, physiological acceptors",
+          "99": "with H+ as acceptor"
+        }
+      },
+      "19": {
+        "name": "acting on reduced flavodoxin as donor",
+        "subsubclasses": {
+          "1": "with NAD+ or NADP+ as acceptor",
+          "6": "with dinitrogen as acceptor"
+        }
+      },
+      "20": {
+        "name": "acting on phosphorus or arsenic in donors",
+        "subsubclasses": {
+          "1": "with NAD+ or NADP+ as acceptor",
+          "2": "with a cytochrome as acceptor",
+          "4": "with a disulfide as acceptor",
+          "9": "with a copper protein as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "21": {
+        "name": "acting on the reaction X-H + Y-H = X-Y",
+        "subsubclasses": {
+          "1": "with NAD+ or NADP+ as acceptor",
+          "3": "with oxygen as acceptor",
+          "4": "with a disulfide as acceptor",
+          "98": "with other, known, physiological acceptors",
+          "99": "with unknown physiological acceptors"
+        }
+      },
+      "22": {
+        "name": "acting on halogen in donors",
+        "subsubclasses": {
+          "1": "with NAD+ or NADP+ as acceptor"
+        }
+      },
+      "23": {
+        "name": "reducing c-o-c group as acceptor",
+        "subsubclasses": {
+          "1": "with NADH or NADPH as donor",
+          "5": "with a quinone or related compound as acceptor"
+        }
+      },
+      "97": {
+        "name": "other oxidoreductases",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      }
+    }
+  },
+  "2": {
+    "name": "transferases",
+    "subclasses": {
+      "1": {
+        "name": "transferring one-carbon groups",
+        "subsubclasses": {
+          "1": "methyltransferases",
+          "2": "hydroxymethyl-, formyl- and related transferases",
+          "3": "carboxy- and carbamoyltransferases",
+          "4": "amidinotransferases",
+          "5": "methylenetransferases"
+        }
+      },
+      "2": {
+        "name": "transferring aldehyde or ketonic groups",
+        "subsubclasses": {
+          "1": "transketolases and transaldolases"
+        }
+      },
+      "3": {
+        "name": "acyltransferases",
+        "subsubclasses": {
+          "1": "transferring groups other than amino-acyl groups",
+          "2": "aminoacyltransferases",
+          "3": "acyl groups converted into alkyl on transfer"
+        }
+      },
+      "4": {
+        "name": "glycosyltransferases",
+        "subsubclasses": {
+          "1": "hexosyltransferases",
+          "2": "pentosyltransferases",
+          "99": "transferring other glycosyl groups"
+        }
+      },
+      "5": {
+        "name": "transferring alkyl or aryl groups, other than methyl groups",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "6": {
+        "name": "transferring nitrogenous groups",
+        "subsubclasses": {
+          "1": "transaminases",
+          "2": "amidinotransferases",
+          "3": "oximinotransaminases",
+          "99": "transferring other nitrogenous groups"
+        }
+      },
+      "7": {
+        "name": "transferring phosphorus-containing groups",
+        "subsubclasses": {
+          "1": "phosphotransferases with an alcohol group as acceptor",
+          "2": "phosphotransferases with a carboxy group as acceptor",
+          "3": "phosphotransferases with a nitrogenous group as acceptor",
+          "4": "phosphotransferases with a phosphate group as acceptor",
+          "5": "phosphotransferases with regeneration of donors, apparently catalysing intramolecular transfers",
+          "6": "diphosphotransferases",
+          "7": "nucleotidyltransferases",
+          "8": "transferases for other substituted phosphate groups",
+          "9": "phosphotransferases with paired acceptors",
+          "10": "protein-tyrosine kinases",
+          "11": "protein-serine/threonine kinases",
+          "12": "dual-specificity kinases (those acting on serine/threonine and tyrosine residues)",
+          "13": "protein-histidine kinases",
+          "14": "protein-arginine kinases",
+          "99": "other protein kinases"
+        }
+      },
+      "8": {
+        "name": "transferring sulfur-containing groups",
+        "subsubclasses": {
+          "1": "sulfurtransferases",
+          "2": "sulfotransferases",
+          "3": "CoA-transferases",
+          "4": "transferring alkylthio groups",
+          "5": "thiosulfotransferases"
+        }
+      },
+      "9": {
+        "name": "transferring selenium-containing groups",
+        "subsubclasses": {
+          "1": "selenotransferases"
+        }
+      },
+      "10": {
+        "name": "transferring molybdenum- or tungsten-containing groups",
+        "subsubclasses": {
+          "1": "molybdenumtransferases or tungstentransferases with sulfide groups as acceptors"
+        }
+      }
+    }
+  },
+  "3": {
+    "name": "hydrolases",
+    "subclasses": {
+      "1": {
+        "name": "acting on ester bonds",
+        "subsubclasses": {
+          "1": "carboxylic ester hydrolases",
+          "2": "thioester hydrolases",
+          "3": "phosphoric monoester hydrolases",
+          "4": "phosphoric diester hydrolases",
+          "5": "triphosphoric monoester hydrolases",
+          "6": "sulfuric ester hydrolases",
+          "7": "diphosphoric monoester hydrolases",
+          "8": "phosphoric triester hydrolases",
+          "11": "exodeoxyribonucleases producing 5′-phosphomonoesters",
+          "12": "exodeoxyribonucleases producing 3′-phosphomonoesters",
+          "13": "exoribonucleases producing 5′-phosphomonoesters",
+          "14": "exoribonucleases producing 3′-phosphomonoesters",
+          "15": "exonucleases active with either ribo- or deoxyribonucleic acids and producing 5′-phosphomonoesters",
+          "16": "exonucleases active with either ribo- or deoxyribonucleic acids and producing 3′-phosphomonoesters",
+          "21": "endodeoxyribonucleases producing 5′-phosphomonoesters",
+          "22": "endodeoxyribonucleases producing 3′-phosphomonoesters",
+          "25": "site-specific endodeoxyribonucleases specific for altered bases",
+          "26": "endoribonucleases producing 5′-phosphomonoesters",
+          "27": "endoribonucleases producing 3′-phosphomonoesters",
+          "30": "endoribonucleases active with either ribo- or deoxyribonucleic acids and producing 5′-phosphomonoesters",
+          "31": "endoribonucleases active with either ribo- or deoxyribonucleic acids and producing 3′-phosphomonoesters"
+        }
+      },
+      "2": {
+        "name": "glycosylases",
+        "subsubclasses": {
+          "1": "glycosidases, i.e. enzymes hydrolysing O- and S-glycosyl compounds",
+          "2": "hydrolysing N-glycosyl compounds"
+        }
+      },
+      "3": {
+        "name": "acting on ether bonds",
+        "subsubclasses": {
+          "1": "thioether and trialkylsulfonium hydrolases",
+          "2": "ether hydrolases"
+        }
+      },
+      "4": {
+        "name": "acting on peptide bonds (peptidases)",
+        "subsubclasses": {
+          "11": "aminopeptidases",
+          "13": "dipeptidases",
+          "14": "dipeptidyl-peptidases and tripeptidyl-peptidases",
+          "15": "peptidyl-dipeptidases",
+          "16": "serine-type carboxypeptidases",
+          "17": "metallocarboxypeptidases",
+          "18": "cysteine-type carboxypeptidases",
+          "19": "omega peptidases",
+          "21": "serine endopeptidases",
+          "22": "cysteine endopeptidases",
+          "23": "aspartic endopeptidases",
+          "24": "metalloendopeptidases",
+          "25": "threonine endopeptidases",
+          "26": "glutamic endopeptidases",
+          "99": "endopeptidases of unknown catalytic mechanism"
+        }
+      },
+      "5": {
+        "name": "acting on carbon-nitrogen bonds, other than peptide bonds",
+        "subsubclasses": {
+          "1": "in linear amides",
+          "2": "in cyclic amides",
+          "3": "in linear amidines",
+          "4": "in cyclic amidines",
+          "5": "in nitriles",
+          "99": "in other compounds"
+        }
+      },
+      "6": {
+        "name": "acting on acid anhydrides",
+        "subsubclasses": {
+          "1": "in phosphorus-containing anhydrides",
+          "2": "in sulfonyl-containing anhydrides",
+          "3": "acting on acid anhydrides; catalysing transmembrane movement of substances",
+          "4": "acting on ATP; involved in cellular and subcellular movement",
+          "5": "acting on GTP; involved in cellular and subcellular movement"
+        }
+      },
+      "7": {
+        "name": "acting on carbon-carbon bonds",
+        "subsubclasses": {
+          "1": "in ketonic substances"
+        }
+      },
+      "8": {
+        "name": "acting on halide bonds",
+        "subsubclasses": {
+          "1": "in C-halide compounds",
+          "2": "in P-halide compounds"
+        }
+      },
+      "9": {
+        "name": "acting on phosphorus-nitrogen bonds",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "10": {
+        "name": "acting on sulfur-nitrogen bonds",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "11": {
+        "name": "acting on carbon-phosphorus bonds",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "12": {
+        "name": "acting on sulfur-sulfur bonds",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "13": {
+        "name": "acting on carbon-sulfur bonds",
+        "subsubclasses": {
+          "1": "acting on carbon–sulfur bonds",
+          "2": "thioether and trialkylsulfonium hydrolases"
+        }
+      }
+    }
+  },
+  "4": {
+    "name": "lyases",
+    "subclasses": {
+      "1": {
+        "name": "carbon-carbon lyases",
+        "subsubclasses": {
+          "1": "carboxy-lyases",
+          "2": "aldehyde-lyases",
+          "3": "oxo-acid-lyases",
+          "99": "other carbon–carbon lyases"
+        }
+      },
+      "2": {
+        "name": "carbon-oxygen lyases",
+        "subsubclasses": {
+          "1": "hydro-lyases",
+          "2": "acting on polysaccharides",
+          "3": "acting on phosphates",
+          "99": "other carbon–oxygen lyases"
+        }
+      },
+      "3": {
+        "name": "carbon-nitrogen lyases",
+        "subsubclasses": {
+          "1": "ammonia-lyases",
+          "2": "lyases acting on amides, amidines, etc.",
+          "3": "amine-lyases",
+          "99": "other carbon–nitrogen lyases"
+        }
+      },
+      "4": {
+        "name": "carbon-sulfur lyases",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "5": {
+        "name": "carbon-halide lyases",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "6": {
+        "name": "phosphorus-oxygen lyases",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "7": {
+        "name": "carbon-phosphorus lyases",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "99": {
+        "name": "other lyases",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      }
+    }
+  },
+  "5": {
+    "name": "isomerases",
+    "subclasses": {
+      "1": {
+        "name": "racemases and epimerases",
+        "subsubclasses": {
+          "1": "acting on amino acids and derivatives",
+          "2": "acting on hydroxy acids and derivatives",
+          "3": "acting on carbohydrates and derivatives",
+          "99": "acting on other compounds"
+        }
+      },
+      "2": {
+        "name": "cis-trans-isomerases",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "3": {
+        "name": "intramolecular isomerases",
+        "subsubclasses": {
+          "1": "interconverting aldoses and ketoses",
+          "2": "interconverting keto- and enol-groups",
+          "3": "transposing C=C bonds",
+          "4": "transposing S–S bonds",
+          "99": "other intramolecular oxidoreductases"
+        }
+      },
+      "4": {
+        "name": "intramolecular transferases (mutases)",
+        "subsubclasses": {
+          "1": "transferring acyl groups",
+          "2": "phosphotransferases (phosphomutases)",
+          "3": "transferring amino groups",
+          "4": "transferring hydroxy groups",
+          "99": "transferring other groups"
+        }
+      },
+      "5": {
+        "name": "intramolecular lyases",
+        "subsubclasses": {
+          "1": "enzymes altering polypeptide conformation or assembly"
+        }
+      },
+      "99": {
+        "name": "other isomerases",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      }
+    }
+  },
+  "6": {
+    "name": "ligases",
+    "subclasses": {
+      "1": {
+        "name": "forming carbon-oxygen bonds",
+        "subsubclasses": {
+          "1": "ligases forming aminoacyl-tRNA and related compounds",
+          "2": "acid–alcohol ligases (ester synthases)"
+        }
+      },
+      "2": {
+        "name": "forming carbon-sulfur bonds",
+        "subsubclasses": {
+          "1": "acid–thiol ligases"
+        }
+      },
+      "3": {
+        "name": "forming carbon-nitrogen bonds",
+        "subsubclasses": {
+          "1": "acid–ammonia (or amine) ligases (amide synthases)",
+          "2": "acid–amino-acid ligases (peptide synthases)",
+          "3": "cyclo-ligases",
+          "4": "other carbon–nitrogen ligases",
+          "5": "carbon–nitrogen ligases with glutamine as amido-n-donor"
+        }
+      },
+      "4": {
+        "name": "forming carbon-carbon bonds",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "5": {
+        "name": "forming phosphoric ester bonds",
+        "subsubclasses": {
+          "1": "(only sub-subclass identified to date)"
+        }
+      },
+      "6": {
+        "name": "forming nitrogen-metal bonds",
+        "subsubclasses": {
+          "1": "forming coordination complexes"
+        }
+      }
+    }
+  },
+  "7": {
+    "name": "translocases",
+    "subclasses": {
+      "1": {
+        "name": "catalysing the translocation of hydrons",
+        "subsubclasses": {
+          "1": "linked to oxidoreductase reactions",
+          "2": "linked to the hydrolysis of a nucleoside triphosphate",
+          "3": "linked to the hydrolysis of diphosphate"
+        }
+      },
+      "2": {
+        "name": "catalysing the translocation of inorganic cations",
+        "subsubclasses": {
+          "1": "linked to oxidoreductase reactions",
+          "2": "linked to the hydrolysis of a nucleoside triphosphate",
+          "4": "linked to decarboxylation"
+        }
+      },
+      "3": {
+        "name": "catalysing the translocation of inorganic anions and their chelates",
+        "subsubclasses": {
+          "2": "linked to the hydrolysis of a nucleoside triphosphate"
+        }
+      },
+      "4": {
+        "name": "catalysing the translocation of amino acids and peptides",
+        "subsubclasses": {
+          "2": "linked to the hydrolysis of a nucleoside triphosphate"
+        }
+      },
+      "5": {
+        "name": "catalysing the translocation of carbohydrates and their derivatives",
+        "subsubclasses": {
+          "2": "carbohydrate and their derivatives translocation linked to the hydrolysis of a nucleoside triphosphate"
+        }
+      },
+      "6": {
+        "name": "catalysing the translocation of other compounds",
+        "subsubclasses": {
+          "2": "linked to the hydrolysis of a nucleoside triphosphate"
+        }
+      }
+    }
+  }
+}

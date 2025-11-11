@@ -1,0 +1,37 @@
+[
+  {
+    "index": "EC-g-01",
+    "task": "ec number",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, which are enzymes {2}, particularly {3}."
+  },
+  {
+    "index": "EC-g-02",
+    "task": "ec number",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, enzymes {2}, mainly {3}."
+  },
+  {
+    "index": "EC-g-03",
+    "task": "ec number",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, which are enzymes {2}, especially {3}."
+  },
+  {
+    "index": "EC-g-04",
+    "task": "ec number",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, which include enzymes {2}, particularly active {3}."
+  },
+  {
+    "index": "EC-g-05",
+    "task": "ec number",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is part of {1}, enzymes {2}, primarily functioning {3}."
+  }
+]

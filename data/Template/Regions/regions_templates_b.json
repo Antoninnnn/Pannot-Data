@@ -1,0 +1,143 @@
+[
+  {
+    "index": "RG-b-01",
+    "task": "regions",
+    "instruction": "Given the protein information, could you identify the region that carries a specific structural or functional role?",
+    "input": "{Accession}",
+    "output": "Residues {StartLocation}–{EndLocation} constitute a region related to {Content}."
+  },
+  {
+    "index": "RG-b-02",
+    "task": "regions",
+    "instruction": "From the protein record, could you describe what biological feature this region corresponds to?",
+    "input": "{Accession}",
+    "output": "The stretch between residues {StartLocation} and {EndLocation} corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-03",
+    "task": "regions",
+    "instruction": "Based on the protein data, what is the role of the region defined by these residues?",
+    "input": "{Accession}",
+    "output": "The segment from {StartLocation} to {EndLocation} is associated with {Content}."
+  },
+  {
+    "index": "RG-b-04",
+    "task": "regions",
+    "instruction": "According to the provided record, which functional element does this region represent?",
+    "input": "{Accession}",
+    "output": "This region, spanning residues {StartLocation}–{EndLocation}, represents {Content}."
+  },
+  {
+    "index": "RG-b-05",
+    "task": "regions",
+    "instruction": "Can you determine, from the protein information, what structural region is indicated here?",
+    "input": "{Accession}",
+    "output": "Residues {StartLocation}–{EndLocation} indicate {Content} within this protein."
+  },
+  {
+    "index": "RG-b-06",
+    "task": "regions",
+    "instruction": "What kind of region is formed by residues {StartLocation} to {EndLocation} according to the annotation?",
+    "input": "{Accession}",
+    "output": "The annotated residues {StartLocation}–{EndLocation} form {Content}."
+  },
+  {
+    "index": "RG-b-07",
+    "task": "regions",
+    "instruction": "From the given data, could you specify which part of the protein corresponds to this functional region?",
+    "input": "{Accession}",
+    "output": "The portion of the protein between residues {StartLocation} and {EndLocation} corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-08",
+    "task": "regions",
+    "instruction": "According to the annotation, what structural feature is associated with this part of the protein?",
+    "input": "{Accession}",
+    "output": "The region located at residues {StartLocation}–{EndLocation} is associated with {Content}."
+  },
+  {
+    "index": "RG-b-09",
+    "task": "regions",
+    "instruction": "Could you identify the function linked to the region spanning residues {StartLocation}–{EndLocation}?",
+    "input": "{Accession}",
+    "output": "This region (residues {StartLocation}–{EndLocation}) is linked to {Content}."
+  },
+  {
+    "index": "RG-b-10",
+    "task": "regions",
+    "instruction": "From the available record, what feature does this region of the protein sequence describe?",
+    "input": "{Accession}",
+    "output": "Residues {StartLocation}–{EndLocation} describe {Content} within this protein."
+  },
+
+  {
+    "index": "RG-b-11",
+    "task": "regions",
+    "instruction": "Identify the sequence region defined in the protein record and explain its function.",
+    "input": "{Accession}",
+    "output": "The protein contains a region extending from {StartLocation} to {EndLocation} that corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-12",
+    "task": "regions",
+    "instruction": "Describe the annotated region found in the sequence according to the protein information.",
+    "input": "{Accession}",
+    "output": "Residues {StartLocation}–{EndLocation} represent a region involved in {Content}."
+  },
+  {
+    "index": "RG-b-13",
+    "task": "regions",
+    "instruction": "Determine the location and type of the region highlighted in the protein record.",
+    "input": "{Accession}",
+    "output": "The highlighted region from {StartLocation} to {EndLocation} corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-14",
+    "task": "regions",
+    "instruction": "Summarize the information about the region defined by residues {StartLocation} and {EndLocation}.",
+    "input": "{Accession}",
+    "output": "The part of the protein between residues {StartLocation}–{EndLocation} denotes {Content}."
+  },
+  {
+    "index": "RG-b-15",
+    "task": "regions",
+    "instruction": "According to the record, specify which sequence range corresponds to the annotated functional region.",
+    "input": "{Accession}",
+    "output": "The sequence segment ({StartLocation}–{EndLocation}) corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-16",
+    "task": "regions",
+    "instruction": "Provide the functional meaning of the region annotated within the given residue range.",
+    "input": "{Accession}",
+    "output": "This annotated region, located between {StartLocation} and {EndLocation}, relates to {Content}."
+  },
+  {
+    "index": "RG-b-17",
+    "task": "regions",
+    "instruction": "Identify and describe the region that carries structural importance in the sequence.",
+    "input": "{Accession}",
+    "output": "Residues {StartLocation}–{EndLocation} form a structural region corresponding to {Content}."
+  },
+  {
+    "index": "RG-b-18",
+    "task": "regions",
+    "instruction": "Determine the sequence span and its biological relevance according to the protein data.",
+    "input": "{Accession}",
+    "output": "The span from residue {StartLocation} to residue {EndLocation} corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-19",
+    "task": "regions",
+    "instruction": "Using the given protein record, describe the position and role of the annotated region.",
+    "input": "{Accession}",
+    "output": "This region, extending from residues {StartLocation} to {EndLocation}, is related to {Content}."
+  },
+  {
+    "index": "RG-b-20",
+    "task": "regions",
+    "instruction": "Summarize, based on the protein data, what the sequence range {StartLocation}–{EndLocation} represents.",
+    "input": "{Accession}",
+    "output": "Residues {StartLocation}–{EndLocation} correspond to {Content} in this protein."
+  }
+]

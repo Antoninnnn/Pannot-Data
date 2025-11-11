@@ -1,0 +1,142 @@
+[
+  {
+    "index": "CF-b-01",
+    "task": "cofactors",
+    "instruction": "Based on the provided protein information, identify the cofactors, metal ions, or prosthetic groups essential for its catalytic activity.",
+    "input": "{Accession}",
+    "output": "This enzyme requires {Cofactors} for its catalytic function."
+  },
+  {
+    "index": "CF-b-02",
+    "task": "cofactors",
+    "instruction": "Examine the protein record and determine which cofactors or metal ions are necessary for its enzymatic activity.",
+    "input": "{Accession}",
+    "output": "The catalytic activity of this enzyme depends on {Cofactors}."
+  },
+  {
+    "index": "CF-b-03",
+    "task": "cofactors",
+    "instruction": "From the given protein data, identify any cofactors or metal ions required for proper enzymatic function.",
+    "input": "{Accession}",
+    "output": "The enzyme utilizes {Cofactors} as essential cofactors in its reaction."
+  },
+  {
+    "index": "CF-b-04",
+    "task": "cofactors",
+    "instruction": "Using the supplied protein information, list the cofactors or prosthetic groups involved in catalysis.",
+    "input": "{Accession}",
+    "output": "Catalytic activity of the enzyme involves {Cofactors}."
+  },
+  {
+    "index": "CF-b-05",
+    "task": "cofactors",
+    "instruction": "Identify from the provided protein record which cofactors support its enzymatic reactions.",
+    "input": "{Accession}",
+    "output": "This enzyme depends on {Cofactors} to perform catalysis."
+  },
+  {
+    "index": "CF-b-06",
+    "task": "cofactors",
+    "instruction": "Determine which cofactors or metal ions are bound by the enzyme to enable catalysis.",
+    "input": "{Accession}",
+    "output": "{Cofactors} are required for this enzyme’s catalytic process."
+  },
+  {
+    "index": "CF-b-07",
+    "task": "cofactors",
+    "instruction": "Refer to the provided protein data to find the cofactors that participate in the enzyme’s catalytic mechanism.",
+    "input": "{Accession}",
+    "output": "This enzyme employs {Cofactors} as key catalytic cofactors."
+  },
+  {
+    "index": "CF-b-08",
+    "task": "cofactors",
+    "instruction": "Using the given protein information, determine which metal ions or cofactors are critical for activity.",
+    "input": "{Accession}",
+    "output": "The enzyme’s catalytic function relies on {Cofactors}."
+  },
+  {
+    "index": "CF-b-09",
+    "task": "cofactors",
+    "instruction": "From the protein record, extract details of any cofactors or ions essential for its catalytic role.",
+    "input": "{Accession}",
+    "output": "Essential cofactors for this enzyme include {Cofactors}."
+  },
+  {
+    "index": "CF-b-10",
+    "task": "cofactors",
+    "instruction": "Identify the cofactors associated with this protein that are required for its enzymatic activity.",
+    "input": "{Accession}",
+    "output": "The enzyme associates with {Cofactors} to carry out its function."
+  },
+  {
+    "index": "CF-b-11",
+    "task": "cofactors",
+    "instruction": "Analyze the protein information and specify which cofactors or metal ions enable its activity.",
+    "input": "{Accession}",
+    "output": "{Cofactors} are essential for the enzyme’s catalytic efficiency."
+  },
+  {
+    "index": "CF-b-12",
+    "task": "cofactors",
+    "instruction": "Determine which cofactors the enzyme depends on according to the given protein entry.",
+    "input": "{Accession}",
+    "output": "The enzyme depends on {Cofactors} as cofactors."
+  },
+  {
+    "index": "CF-b-13",
+    "task": "cofactors",
+    "instruction": "Review the provided protein record and identify any cofactors vital for catalysis.",
+    "input": "{Accession}",
+    "output": "{Cofactors} serve as vital cofactors for the enzyme."
+  },
+  {
+    "index": "CF-b-14",
+    "task": "cofactors",
+    "instruction": "From the protein information, specify the cofactors or metal ions that contribute to enzymatic catalysis.",
+    "input": "{Accession}",
+    "output": "The enzyme requires the presence of {Cofactors} for catalytic action."
+  },
+  {
+    "index": "CF-b-15",
+    "task": "cofactors",
+    "instruction": "Using the protein data, identify any cofactors or metal ions essential for its biochemical reactions.",
+    "input": "{Accession}",
+    "output": "Catalytic reactions of this enzyme depend on {Cofactors}."
+  },
+  {
+    "index": "CF-b-16",
+    "task": "cofactors",
+    "instruction": "Inspect the protein information to find which cofactors or ions assist in the enzyme’s function.",
+    "input": "{Accession}",
+    "output": "The enzyme makes use of {Cofactors} for its catalytic activity."
+  },
+  {
+    "index": "CF-b-17",
+    "task": "cofactors",
+    "instruction": "Identify from the provided entry the cofactors involved in this enzyme’s reaction mechanism.",
+    "input": "{Accession}",
+    "output": "The enzyme functions with the help of {Cofactors}."
+  },
+  {
+    "index": "CF-b-18",
+    "task": "cofactors",
+    "instruction": "Using the supplied data, determine which cofactors are bound by the enzyme to perform catalysis.",
+    "input": "{Accession}",
+    "output": "The enzyme binds {Cofactors} to carry out catalysis."
+  },
+  {
+    "index": "CF-b-19",
+    "task": "cofactors",
+    "instruction": "From the protein record, specify the cofactors required for optimal catalytic performance.",
+    "input": "{Accession}",
+    "output": "Optimal enzyme activity depends on {Cofactors}."
+  },
+  {
+    "index": "CF-b-20",
+    "task": "cofactors",
+    "instruction": "Examine the protein entry and state which cofactors or ions are necessary for enzymatic function.",
+    "input": "{Accession}",
+    "output": "This enzyme’s activity requires {Cofactors}."
+  }
+]

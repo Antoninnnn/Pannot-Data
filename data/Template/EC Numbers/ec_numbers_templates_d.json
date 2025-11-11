@@ -1,0 +1,142 @@
+[
+  {
+    "index": "EC-d-01",
+    "task": "ec number",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, within the {2}, and more precisely to the {3}."
+  },
+  {
+    "index": "EC-d-02",
+    "task": "ec number",
+    "instruction": "From the provided protein information, identify the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme has EC number {ECNumbers}. It belongs to {1}, under the {2}, and specifically to the {3}."
+  },
+  {
+    "index": "EC-d-03",
+    "task": "ec number",
+    "instruction": "Using the given protein details, determine its EC number.",
+    "input": "{Accession}",
+    "output": "The enzyme is classified with EC number {ECNumbers}. It belongs to {1}, within the {2}, and particularly to the {3}."
+  },
+  {
+    "index": "EC-d-04",
+    "task": "ec number",
+    "instruction": "Given the protein information, specify its EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme has the EC number {ECNumbers}. It is part of {1}, specifically within the {2}, and more precisely classified as the {3}."
+  },
+  {
+    "index": "EC-d-05",
+    "task": "ec number",
+    "instruction": "Referencing the provided protein data, determine its EC number.",
+    "input": "{Accession}",
+    "output": "The EC number is {ECNumbers}. It belongs to {1}, within the {2}, and is classified under the {3}."
+  },
+  {
+    "index": "EC-d-06",
+    "task": "ec number",
+    "instruction": "From the available protein description, identify the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme corresponds to EC number {ECNumbers}. It belongs to {1}, in the {2}, and particularly to the {3}."
+  },
+  {
+    "index": "EC-d-07",
+    "task": "ec number",
+    "instruction": "Using the given protein characteristics, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The enzyme has EC number {ECNumbers}. It belongs to {1}, part of the {2}, and more precisely to the {3}."
+  },
+  {
+    "index": "EC-d-08",
+    "task": "ec number",
+    "instruction": "Based on the protein record provided, find the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme is assigned EC number {ECNumbers}. It belongs to {1}, under the {2}, and classified as the {3}."
+  },
+  {
+    "index": "EC-d-09",
+    "task": "ec number",
+    "instruction": "From the protein data, identify the EC number associated with this enzyme.",
+    "input": "{Accession}",
+    "output": "The enzyme’s EC number is {ECNumbers}. It is grouped within {1}, specifically in the {2}, and belongs to the {3}."
+  },
+  {
+    "index": "EC-d-10",
+    "task": "ec number",
+    "instruction": "Using the available protein data, infer its EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is classified within {1}, under the {2}, and precisely as the {3}."
+  },
+  {
+    "index": "EC-d-11",
+    "task": "ec number",
+    "instruction": "Analyze the provided protein information to identify its EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme has EC number {ECNumbers}. It belongs to {1}, within the {2}, and more specifically to the {3}."
+  },
+  {
+    "index": "EC-d-12",
+    "task": "ec number",
+    "instruction": "Given the protein description, determine its EC number.",
+    "input": "{Accession}",
+    "output": "The enzyme’s EC number is {ECNumbers}. It is classified as part of {1}, in the {2}, and more precisely the {3}."
+  },
+  {
+    "index": "EC-d-13",
+    "task": "ec number",
+    "instruction": "From the given protein entry, determine its EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme has the EC number {ECNumbers}. It belongs to {1}, within the {2}, and classified under the {3}."
+  },
+  {
+    "index": "EC-d-14",
+    "task": "ec number",
+    "instruction": "Referencing the protein information, specify the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The EC number corresponding to this enzyme is {ECNumbers}. It belongs to {1}, under the {2}, and particularly within the {3}."
+  },
+  {
+    "index": "EC-d-15",
+    "task": "ec number",
+    "instruction": "Using the protein information provided, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme is identified with EC number {ECNumbers}. It belongs to {1}, specifically in the {2}, and more precisely to the {3}."
+  },
+  {
+    "index": "EC-d-16",
+    "task": "ec number",
+    "instruction": "Based on the given protein information, identify its EC number.",
+    "input": "{Accession}",
+    "output": "The enzyme has EC number {ECNumbers}. It is classified within {1}, in the {2}, and particularly under the {3}."
+  },
+  {
+    "index": "EC-d-17",
+    "task": "ec number",
+    "instruction": "From the provided protein record, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme is assigned EC number {ECNumbers}. It belongs to {1}, within the {2}, and more specifically in the {3} category."
+  },
+  {
+    "index": "EC-d-18",
+    "task": "ec number",
+    "instruction": "Using the protein data given, determine its EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, under the {2}, and is classified as the {3}."
+  },
+  {
+    "index": "EC-d-19",
+    "task": "ec number",
+    "instruction": "Based on the available protein data, infer the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The enzyme is categorized with EC number {ECNumbers}. It belongs to {1}, in the {2}, and more precisely within the {3}."
+  },
+  {
+    "index": "EC-d-20",
+    "task": "ec number",
+    "instruction": "From the protein information available, identify the EC number of this enzyme.",
+    "input": "{Accession}",
+    "output": "This enzyme has EC number {ECNumbers}. It belongs to {1}, within the {2}, and more precisely to the {3}."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "index": "PW-c-01",
+    "task": "pathway",
+    "instruction": "Based on the provided protein information, describe the broad metabolic pathway or system this protein is associated with.",
+    "input": "{Accession}",
+    "output": "This protein is associated with the {SuperPathway} pathway."
+  },
+  {
+    "index": "PW-c-02",
+    "task": "pathway",
+    "instruction": "Using the given data, summarize the overarching metabolic pathway in which this protein participates.",
+    "input": "{Accession}",
+    "output": "The protein functions within the {SuperPathway} pathway."
+  },
+  {
+    "index": "PW-c-03",
+    "task": "pathway",
+    "instruction": "Describe the general metabolic framework that involves this protein.",
+    "input": "{Accession}",
+    "output": "This protein plays a role in the {SuperPathway} pathway."
+  },
+  {
+    "index": "PW-c-04",
+    "task": "pathway",
+    "instruction": "Summarize the metabolic system where this protein exerts its biological function.",
+    "input": "{Accession}",
+    "output": "Functionally, it belongs to the {SuperPathway} pathway."
+  },
+  {
+    "index": "PW-c-05",
+    "task": "pathway",
+    "instruction": "Describe the main metabolic process with which this protein is linked.",
+    "input": "{Accession}",
+    "output": "This protein participates in the {SuperPathway} pathway."
+  },
+  {
+    "index": "PW-c-06",
+    "task": "pathway",
+    "instruction": "Provide a short description of the high-level metabolic pathway that includes this protein.",
+    "input": "{Accession}",
+    "output": "It is involved in the {SuperPathway} pathway."
+  },
+  {
+    "index": "PW-c-07",
+    "task": "pathway",
+    "instruction": "Based on annotation data, identify the large-scale metabolic pathway associated with this protein.",
+    "input": "{Accession}",
+    "output": "This protein is part of the {SuperPathway} pathway."
+  },
+  {
+    "index": "PW-c-08",
+    "task": "pathway",
+    "instruction": "Explain the broad metabolic pathway context of this protein’s function.",
+    "input": "{Accession}",
+    "output": "The protein operates in the {SuperPathway} pathway."
+  },
+  {
+    "index": "PW-c-09",
+    "task": "pathway",
+    "instruction": "Summarize the top-level metabolic system to which this protein contributes.",
+    "input": "{Accession}",
+    "output": "This protein contributes to the {SuperPathway} pathway."
+  },
+  {
+    "index": "PW-c-10",
+    "task": "pathway",
+    "instruction": "Describe the general metabolic context of this protein based on available data.",
+    "input": "{Accession}",
+    "output": "Acting within the {SuperPathway} pathway, this protein performs its biological role."
+  }
+]

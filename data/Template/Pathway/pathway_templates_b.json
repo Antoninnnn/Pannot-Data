@@ -1,0 +1,142 @@
+[
+  {
+    "index": "PW-b-01",
+    "task": "pathway",
+    "instruction": "Based on the provided protein information, describe the pathway in which this protein is involved, emphasizing its position within the broader metabolic hierarchy.",
+    "input": "{Accession}",
+    "output": "This protein is involved in the {Pathway} pathway, which forms part of the overall {SuperPathway}."
+  },
+  {
+    "index": "PW-b-02",
+    "task": "pathway",
+    "instruction": "Using the protein data, describe the pathway that this protein participates in and its connection to the higher-level metabolic system.",
+    "input": "{Accession}",
+    "output": "The protein functions in the {Pathway} pathway, belonging to the larger {SuperPathway}."
+  },
+  {
+    "index": "PW-b-03",
+    "task": "pathway",
+    "instruction": "From the provided information, summarize the metabolic pathway of this protein within its hierarchical context.",
+    "input": "{Accession}",
+    "output": "This protein acts in the {Pathway} pathway, which lies within the metabolic network of {SuperPathway}."
+  },
+  {
+    "index": "PW-b-04",
+    "task": "pathway",
+    "instruction": "Describe the metabolic role of this protein by identifying its pathway and broader hierarchical association.",
+    "input": "{Accession}",
+    "output": "It participates in the {Pathway} pathway, a component of the {SuperPathway} system."
+  },
+  {
+    "index": "PW-b-05",
+    "task": "pathway",
+    "instruction": "Explain the metabolic pathway this protein contributes to and its relation to a broader metabolic framework.",
+    "input": "{Accession}",
+    "output": "This protein contributes to the {Pathway} pathway, which is included in the wider {SuperPathway}."
+  },
+  {
+    "index": "PW-b-06",
+    "task": "pathway",
+    "instruction": "Summarize the hierarchical structure of the pathway where this protein functions.",
+    "input": "{Accession}",
+    "output": "Within the metabolic hierarchy {SuperPathway} → {Pathway}, this protein carries out its function."
+  },
+  {
+    "index": "PW-b-07",
+    "task": "pathway",
+    "instruction": "Describe the pathway that involves this protein, noting its placement within the metabolic hierarchy.",
+    "input": "{Accession}",
+    "output": "This protein acts in the {Pathway} pathway, part of the metabolic hierarchy of {SuperPathway}."
+  },
+  {
+    "index": "PW-b-08",
+    "task": "pathway",
+    "instruction": "Based on pathway annotation, outline the pathway where this protein acts and its metabolic context.",
+    "input": "{Accession}",
+    "output": "The enzyme functions in {Pathway}, which serves as a segment of {SuperPathway}."
+  },
+  {
+    "index": "PW-b-09",
+    "task": "pathway",
+    "instruction": "Summarize the pathway information of this protein in relation to its broader metabolic system.",
+    "input": "{Accession}",
+    "output": "In the {Pathway} pathway belonging to {SuperPathway}, this protein carries out its biological role."
+  },
+  {
+    "index": "PW-b-10",
+    "task": "pathway",
+    "instruction": "Explain the metabolic context of this protein, focusing on the pathway it is part of.",
+    "input": "{Accession}",
+    "output": "This protein participates in {Pathway}, a pathway associated with {SuperPathway}."
+  },
+  {
+    "index": "PW-b-11",
+    "task": "pathway",
+    "instruction": "Describe the pathway hierarchy associated with this protein’s function.",
+    "input": "{Accession}",
+    "output": "Functionally, it belongs to the {Pathway} pathway under the {SuperPathway} network."
+  },
+  {
+    "index": "PW-b-12",
+    "task": "pathway",
+    "instruction": "Using the protein data, characterize its pathway involvement and higher-order metabolic association.",
+    "input": "{Accession}",
+    "output": "The protein operates in {Pathway}, a branch of the {SuperPathway} metabolism."
+  },
+  {
+    "index": "PW-b-13",
+    "task": "pathway",
+    "instruction": "Identify the pathway this protein is associated with and describe its metabolic hierarchy.",
+    "input": "{Accession}",
+    "output": "It is involved in the {Pathway} pathway situated within {SuperPathway}."
+  },
+  {
+    "index": "PW-b-14",
+    "task": "pathway",
+    "instruction": "Summarize the metabolic pathway where this protein functions and its relation to the higher metabolic system.",
+    "input": "{Accession}",
+    "output": "This protein functions in {Pathway}, forming part of the extensive {SuperPathway} metabolism."
+  },
+  {
+    "index": "PW-b-15",
+    "task": "pathway",
+    "instruction": "Provide a description of the pathway hierarchy relevant to this protein’s role.",
+    "input": "{Accession}",
+    "output": "Within the metabolic hierarchy of {SuperPathway}, this protein acts in the {Pathway} pathway."
+  },
+  {
+    "index": "PW-b-16",
+    "task": "pathway",
+    "instruction": "Describe the hierarchical structure of the pathway to which this protein belongs.",
+    "input": "{Accession}",
+    "output": "This enzyme is part of the {Pathway} pathway under the {SuperPathway} category."
+  },
+  {
+    "index": "PW-b-17",
+    "task": "pathway",
+    "instruction": "Explain how this protein fits into its pathway and the encompassing metabolic system.",
+    "input": "{Accession}",
+    "output": "It acts within {Pathway}, a pathway integrated in the {SuperPathway} network."
+  },
+  {
+    "index": "PW-b-18",
+    "task": "pathway",
+    "instruction": "Summarize the pathway hierarchy that defines this protein’s biological context.",
+    "input": "{Accession}",
+    "output": "The protein is associated with {Pathway}, which belongs to {SuperPathway} in the metabolic hierarchy."
+  },
+  {
+    "index": "PW-b-19",
+    "task": "pathway",
+    "instruction": "Based on annotation data, indicate the pathway and the overarching metabolic context of this protein.",
+    "input": "{Accession}",
+    "output": "This protein is a participant in {Pathway}, falling within the broader metabolic framework of {SuperPathway}."
+  },
+  {
+    "index": "PW-b-20",
+    "task": "pathway",
+    "instruction": "Describe the pathway where this protein acts and its hierarchical position within metabolism.",
+    "input": "{Accession}",
+    "output": "Acting in the {Pathway} pathway, this protein contributes to the higher-level {SuperPathway}."
+  }
+]

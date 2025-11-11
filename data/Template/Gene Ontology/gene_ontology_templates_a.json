@@ -1,0 +1,142 @@
+[
+  {
+    "index": "GO-a-01",
+    "task": "gene ontology",
+    "instruction": "Based on the protein information, identify the biological process this protein is involved in.",
+    "input": "{Accession}",
+    "output": "This protein is involved in {GoBP}."
+  },
+  {
+    "index": "GO-a-02",
+    "task": "gene ontology",
+    "instruction": "From the given protein information, determine the biological process associated with this protein.",
+    "input": "{Accession}",
+    "output": "The protein participates in {GoBP}."
+  },
+  {
+    "index": "GO-a-03",
+    "task": "gene ontology",
+    "instruction": "Using the provided protein record, specify which biological process this protein is related to.",
+    "input": "{Accession}",
+    "output": "It is related to the biological process of {GoBP}."
+  },
+  {
+    "index": "GO-a-04",
+    "task": "gene ontology",
+    "instruction": "Given the following protein data, identify the biological process that this protein takes part in.",
+    "input": "{Accession}",
+    "output": "This protein takes part in {GoBP}."
+  },
+  {
+    "index": "GO-a-05",
+    "task": "gene ontology",
+    "instruction": "Determine the biological process that this protein is involved in according to the provided protein information.",
+    "input": "{Accession}",
+    "output": "According to the information, this protein is involved in {GoBP}."
+  },
+  {
+    "index": "GO-a-06",
+    "task": "gene ontology",
+    "instruction": "Identify which biological process this protein contributes to based on the given protein data.",
+    "input": "{Accession}",
+    "output": "This protein contributes to {GoBP}."
+  },
+  {
+    "index": "GO-a-07",
+    "task": "gene ontology",
+    "instruction": "By analyzing the provided protein record, specify the biological process in which this protein plays a role.",
+    "input": "{Accession}",
+    "output": "It plays a role in {GoBP}."
+  },
+  {
+    "index": "GO-a-08",
+    "task": "gene ontology",
+    "instruction": "Identify the biological process in which this protein participates according to the given protein information.",
+    "input": "{Accession}",
+    "output": "According to the given data, this protein participates in {GoBP}."
+  },
+  {
+    "index": "GO-a-09",
+    "task": "gene ontology",
+    "instruction": "Determine the biological process related to this protein based on its record.",
+    "input": "{Accession}",
+    "output": "This protein is associated with {GoBP}."
+  },
+  {
+    "index": "GO-a-10",
+    "task": "gene ontology",
+    "instruction": "From the following protein information, identify which biological process this protein contributes to.",
+    "input": "{Accession}",
+    "output": "It contributes to {GoBP}."
+  },
+  {
+    "index": "GO-a-11",
+    "task": "gene ontology",
+    "instruction": "Based on the protein record, specify the biological process linked to this protein.",
+    "input": "{Accession}",
+    "output": "It is linked to {GoBP}."
+  },
+  {
+    "index": "GO-a-12",
+    "task": "gene ontology",
+    "instruction": "According to the provided protein details, determine the biological process this protein is associated with.",
+    "input": "{Accession}",
+    "output": "This protein is associated with {GoBP}."
+  },
+  {
+    "index": "GO-a-13",
+    "task": "gene ontology",
+    "instruction": "From the protein information below, find out the biological process that this protein is known to participate in.",
+    "input": "{Accession}",
+    "output": "It is known to participate in {GoBP}."
+  },
+  {
+    "index": "GO-a-14",
+    "task": "gene ontology",
+    "instruction": "Using the given protein data, identify the biological process that best describes this protein’s role.",
+    "input": "{Accession}",
+    "output": "The protein’s role is described by {GoBP}."
+  },
+  {
+    "index": "GO-a-15",
+    "task": "gene ontology",
+    "instruction": "Based on the protein information, indicate the biological process in which this protein is active.",
+    "input": "{Accession}",
+    "output": "The protein is active in {GoBP}."
+  },
+  {
+    "index": "GO-a-16",
+    "task": "gene ontology",
+    "instruction": "Using the provided protein information, determine the biological process this protein contributes to.",
+    "input": "{Accession}",
+    "output": "It contributes to {GoBP}."
+  },
+  {
+    "index": "GO-a-17",
+    "task": "gene ontology",
+    "instruction": "Identify the biological process that this protein functions within based on the given protein record.",
+    "input": "{Accession}",
+    "output": "This protein functions within {GoBP}."
+  },
+  {
+    "index": "GO-a-18",
+    "task": "gene ontology",
+    "instruction": "From the given protein information, infer the biological process that this protein is part of.",
+    "input": "{Accession}",
+    "output": "This protein is part of {GoBP}."
+  },
+  {
+    "index": "GO-a-19",
+    "task": "gene ontology",
+    "instruction": "Determine the biological process to which this protein belongs based on its protein data.",
+    "input": "{Accession}",
+    "output": "It belongs to {GoBP}."
+  },
+  {
+    "index": "GO-a-20",
+    "task": "gene ontology",
+    "instruction": "Given the protein details, identify the biological process it participates in.",
+    "input": "{Accession}",
+    "output": "It participates in {GoBP}."
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "index": "SL-a-01",
+    "task": "subcellular location",
+    "instruction": "Based on the provided protein information, identify where the protein is localized within the cell.",
+    "input": "{Accession}",
+    "output": "This protein is localized to {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-02",
+    "task": "subcellular location",
+    "instruction": "Determine the cellular compartment or region in which this protein is found, using the provided protein data.",
+    "input": "{Accession}",
+    "output": "The protein is found in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-03",
+    "task": "subcellular location",
+    "instruction": "From the given protein information, specify the subcellular compartment(s) where the protein resides.",
+    "input": "{Accession}",
+    "output": "It is located in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-04",
+    "task": "subcellular location",
+    "instruction": "Analyze the protein details to determine its subcellular localization.",
+    "input": "{Accession}",
+    "output": "This protein resides in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-05",
+    "task": "subcellular location",
+    "instruction": "Identify the specific region(s) of the cell where this protein is primarily localized.",
+    "input": "{Accession}",
+    "output": "It is mainly localized to {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-06",
+    "task": "subcellular location",
+    "instruction": "Using the protein information provided, determine the subcellular location or compartment associated with this protein.",
+    "input": "{Accession}",
+    "output": "The protein localizes to {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-07",
+    "task": "subcellular location",
+    "instruction": "Identify the intracellular or extracellular location where this protein is commonly found.",
+    "input": "{Accession}",
+    "output": "This protein is commonly found in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-08",
+    "task": "subcellular location",
+    "instruction": "From the available protein information, specify the main subcellular location(s) where the protein is detected.",
+    "input": "{Accession}",
+    "output": "It is detected in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-09",
+    "task": "subcellular location",
+    "instruction": "Examine the protein data and indicate its localization within the cell.",
+    "input": "{Accession}",
+    "output": "This protein is localized within {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-10",
+    "task": "subcellular location",
+    "instruction": "Identify the subcellular region or compartment where this protein functions or is stored.",
+    "input": "{Accession}",
+    "output": "It functions in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-11",
+    "task": "subcellular location",
+    "instruction": "According to the provided protein record, determine its localization inside or outside the cell.",
+    "input": "{Accession}",
+    "output": "The protein is localized in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-12",
+    "task": "subcellular location",
+    "instruction": "Describe where within the cell this protein is situated based on its characteristics.",
+    "input": "{Accession}",
+    "output": "This protein is situated in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-13",
+    "task": "subcellular location",
+    "instruction": "Identify the compartment, membrane, or organelle where this protein is localized.",
+    "input": "{Accession}",
+    "output": "It is localized to {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-14",
+    "task": "subcellular location",
+    "instruction": "Using the protein’s properties, indicate the subcellular region(s) in which it resides.",
+    "input": "{Accession}",
+    "output": "It resides in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-15",
+    "task": "subcellular location",
+    "instruction": "From the given information, determine the likely site of this protein within the cell.",
+    "input": "{Accession}",
+    "output": "The likely site of localization is {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-16",
+    "task": "subcellular location",
+    "instruction": "Identify the major cellular compartment where this protein is present.",
+    "input": "{Accession}",
+    "output": "It is present in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-17",
+    "task": "subcellular location",
+    "instruction": "Refer to the protein information to specify its subcellular localization pattern.",
+    "input": "{Accession}",
+    "output": "This protein shows localization in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-18",
+    "task": "subcellular location",
+    "instruction": "Based on the protein’s annotation, identify the site within the cell where it is localized.",
+    "input": "{Accession}",
+    "output": "It is localized within {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-19",
+    "task": "subcellular location",
+    "instruction": "Using the given data, describe the cellular environment where this protein can be found.",
+    "input": "{Accession}",
+    "output": "This protein can be found in {SubcellularLocations}, {Notes}"
+  },
+  {
+    "index": "SL-a-20",
+    "task": "subcellular location",
+    "instruction": "Identify the intracellular or membrane-associated region where this protein is localized.",
+    "input": "{Accession}",
+    "output": "It is localized to {SubcellularLocations}, {Notes}"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "index": "CF-a-01",
+    "task": "cofactors",
+    "instruction": "From the given protein information, identify the enzyme’s required cofactors and include any specific binding or substitution details provided in the notes.",
+    "input": "{Accession}",
+    "output": "This enzyme requires {Cofactors} as cofactors for its catalytic activity, and {Notes}."
+  },
+  {
+    "index": "CF-a-02",
+    "task": "cofactors",
+    "instruction": "Based on the provided protein data, specify the cofactors involved in catalysis and summarize any details mentioned in the notes.",
+    "input": "{Accession}",
+    "output": "The enzyme depends on {Cofactors} for catalytic function, and {Notes}."
+  },
+  {
+    "index": "CF-a-03",
+    "task": "cofactors",
+    "instruction": "Using the protein record, identify all necessary cofactors and include information about their binding behavior described in the notes.",
+    "input": "{Accession}",
+    "output": "Catalytic activity requires {Cofactors}, and {Notes}."
+  },
+  {
+    "index": "CF-a-04",
+    "task": "cofactors",
+    "instruction": "Analyze the protein information to determine which cofactors are essential and describe any relevant binding characteristics reported in the notes.",
+    "input": "{Accession}",
+    "output": "This enzyme utilizes {Cofactors} as cofactors, and {Notes}."
+  },
+  {
+    "index": "CF-a-05",
+    "task": "cofactors",
+    "instruction": "Identify the enzyme’s cofactors and include additional binding or stoichiometric information derived from the notes.",
+    "input": "{Accession}",
+    "output": "The enzyme requires {Cofactors} to function, and {Notes}."
+  },
+  {
+    "index": "CF-a-06",
+    "task": "cofactors",
+    "instruction": "From the given protein entry, extract the cofactors and note any described binding or substitution patterns.",
+    "input": "{Accession}",
+    "output": "This enzyme binds {Cofactors} for catalysis, and {Notes}."
+  },
+  {
+    "index": "CF-a-07",
+    "task": "cofactors",
+    "instruction": "Refer to the protein data to determine which cofactors the enzyme uses and summarize any details regarding binding or metal preference.",
+    "input": "{Accession}",
+    "output": "The enzyme employs {Cofactors} for its catalytic reactions, and {Notes}."
+  },
+  {
+    "index": "CF-a-08",
+    "task": "cofactors",
+    "instruction": "Using the available protein information, identify all cofactors and include any complementary details recorded in the notes.",
+    "input": "{Accession}",
+    "output": "{Cofactors} serve as essential cofactors for this enzyme, and {Notes}."
+  },
+  {
+    "index": "CF-a-09",
+    "task": "cofactors",
+    "instruction": "From the supplied protein record, report the cofactors essential for enzymatic function and describe any binding properties from the notes.",
+    "input": "{Accession}",
+    "output": "The enzyme relies on {Cofactors}, and {Notes}."
+  },
+  {
+    "index": "CF-a-10",
+    "task": "cofactors",
+    "instruction": "Determine which cofactors are utilized by the enzyme and summarize any details about their association given in the notes.",
+    "input": "{Accession}",
+    "output": "Catalytic function depends on {Cofactors}, and {Notes}."
+  },
+  {
+    "index": "CF-a-11",
+    "task": "cofactors",
+    "instruction": "Identify from the protein data the cofactors that participate in catalysis and include any specific details mentioned in the notes.",
+    "input": "{Accession}",
+    "output": "This enzyme makes use of {Cofactors} for catalysis, and {Notes}."
+  },
+  {
+    "index": "CF-a-12",
+    "task": "cofactors",
+    "instruction": "Review the protein information and describe the cofactors required for activity along with any binding characteristics stated in the notes.",
+    "input": "{Accession}",
+    "output": "The enzyme functions with {Cofactors} as cofactors, and {Notes}."
+  },
+  {
+    "index": "CF-a-13",
+    "task": "cofactors",
+    "instruction": "Determine which cofactors enable enzymatic catalysis and include additional binding or stoichiometric information from the notes.",
+    "input": "{Accession}",
+    "output": "The enzyme’s catalytic mechanism requires {Cofactors}, and {Notes}."
+  },
+  {
+    "index": "CF-a-14",
+    "task": "cofactors",
+    "instruction": "From the given protein data, list the enzyme’s cofactors and integrate any detailed information about their interaction found in the notes.",
+    "input": "{Accession}",
+    "output": "{Cofactors} are necessary for enzymatic activity, and {Notes}."
+  },
+  {
+    "index": "CF-a-15",
+    "task": "cofactors",
+    "instruction": "Use the protein record to identify the required cofactors and summarize any additional notes about their binding or substitution.",
+    "input": "{Accession}",
+    "output": "The enzyme depends on {Cofactors}, and {Notes}."
+  },
+  {
+    "index": "CF-a-16",
+    "task": "cofactors",
+    "instruction": "Based on the provided data, specify the cofactors and include any details about metal preference or coordination extracted from the notes.",
+    "input": "{Accession}",
+    "output": "This enzyme utilizes {Cofactors} for catalysis, and {Notes}."
+  },
+  {
+    "index": "CF-a-17",
+    "task": "cofactors",
+    "instruction": "Identify cofactors involved in catalysis and include descriptive information about binding or substitution derived from the notes.",
+    "input": "{Accession}",
+    "output": "Enzymatic activity involves {Cofactors}, and {Notes}."
+  },
+  {
+    "index": "CF-a-18",
+    "task": "cofactors",
+    "instruction": "From the protein entry, report all required cofactors together with relevant details about their binding as recorded in the notes.",
+    "input": "{Accession}",
+    "output": "The enzyme requires {Cofactors} for its catalytic process, and {Notes}."
+  },
+  {
+    "index": "CF-a-19",
+    "task": "cofactors",
+    "instruction": "Analyze the protein information to determine the cofactors and summarize any related notes about stoichiometry or substitution.",
+    "input": "{Accession}",
+    "output": "This enzyme binds {Cofactors} to support catalysis, and {Notes}."
+  },
+  {
+    "index": "CF-a-20",
+    "task": "cofactors",
+    "instruction": "Using the supplied protein information, identify the cofactors essential for catalysis and integrate additional binding details from the notes.",
+    "input": "{Accession}",
+    "output": "The catalytic activity of this enzyme depends on {Cofactors}, and {Notes}."
+  }
+]

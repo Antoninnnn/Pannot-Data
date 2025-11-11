@@ -1,0 +1,72 @@
+[
+  {
+    "index": "EC-f-01",
+    "task": "ec number",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, which are enzymes {2}, more specifically {3}."
+  },
+  {
+    "index": "EC-f-02",
+    "task": "ec number",
+    "instruction": "From the given protein information, identify the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme has the EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, more specifically {3}."
+  },
+  {
+    "index": "EC-f-03",
+    "task": "ec number",
+    "instruction": "Using the provided protein data, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The enzyme is classified with EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, more specifically {3}."
+  },
+  {
+    "index": "EC-f-04",
+    "task": "ec number",
+    "instruction": "Given the protein characteristics, identify its EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme corresponds to EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, more specifically {3}."
+  },
+  {
+    "index": "EC-f-05",
+    "task": "ec number",
+    "instruction": "Referencing the provided protein record, determine its EC number.",
+    "input": "{Accession}",
+    "output": "The enzyme’s EC number is {ECNumbers}. It belongs to {1}, which are enzymes {2}, more specifically {3}."
+  },
+  {
+    "index": "EC-f-06",
+    "task": "ec number",
+    "instruction": "Using the available protein description, find the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is classified under {1}, which are enzymes {2}, more specifically {3}."
+  },
+  {
+    "index": "EC-f-07",
+    "task": "ec number",
+    "instruction": "From the provided protein data, specify its EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme has EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, more specifically {3}."
+  },
+  {
+    "index": "EC-f-08",
+    "task": "ec number",
+    "instruction": "Based on the given protein details, determine the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "The enzyme is assigned EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, more specifically {3}."
+  },
+  {
+    "index": "EC-f-09",
+    "task": "ec number",
+    "instruction": "From the available protein entry, identify its EC number.",
+    "input": "{Accession}",
+    "output": "The enzyme’s EC number is {ECNumbers}. It belongs to {1}, which are enzymes {2}, more specifically {3}."
+  },
+  {
+    "index": "EC-f-10",
+    "task": "ec number",
+    "instruction": "Using the provided protein information, infer the enzyme’s EC number.",
+    "input": "{Accession}",
+    "output": "This enzyme is classified with EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, more specifically {3}."
+  }
+]
