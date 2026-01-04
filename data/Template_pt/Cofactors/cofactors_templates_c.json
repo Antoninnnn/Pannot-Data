@@ -2,36 +2,36 @@
   {
     "index": "CF-c-01",
     "task": "cofactors",
-    "instruction": "Based on the provided protein information, identify the cofactors and specify the exact residue where they bind to.",
+    "instruction": "Based on the provided protein information, identify the cofactors required by this protein.",
     "input": "{Sequence}",
-    "output": "This enzyme requires {Cofactors}, which bind to residue {StartLocation} of this protein."
+    "output": "This enzyme requires {Cofactors}."
   },
   {
     "index": "CF-c-02",
     "task": "cofactors",
-    "instruction": "From the given protein record, determine the cofactors and indicate the residue position where they bind.",
+    "instruction": "From the given protein record, determine the cofactors associated with this protein.",
     "input": "{Sequence}",
-    "output": "The identified cofactors are {Cofactors}, binding to residue {StartLocation} in this protein."
+    "output": "The identified cofactors are {Cofactors}."
   },
   {
     "index": "CF-c-03",
     "task": "cofactors",
-    "instruction": "Using the provided protein data, find the cofactors and describe the binding residue.",
+    "instruction": "Using the provided protein data, find the cofactors utilized by this enzyme.",
     "input": "{Sequence}",
-    "output": "This enzyme utilizes {Cofactors}, which attach to residue {StartLocation} of the protein."
+    "output": "This enzyme utilizes {Cofactors}."
   },
   {
     "index": "CF-c-04",
     "task": "cofactors",
-    "instruction": "Based on the protein information, identify the cofactors involved and report the specific residue where they interact with the protein.",
+    "instruction": "Based on the protein information, identify the cofactors involved in this enzyme’s activity.",
     "input": "{Sequence}",
-    "output": "The enzyme depends on {Cofactors}, binding to residue {StartLocation} of this protein."
+    "output": "The enzyme depends on {Cofactors}."
   },
   {
     "index": "CF-c-05",
     "task": "cofactors",
-    "instruction": "Given the protein information, identify the cofactors and specify the residue that forms their binding site.",
+    "instruction": "Given the protein information, identify the cofactors required for this protein’s function.",
     "input": "{Sequence}",
-    "output": "This enzyme requires {Cofactors}, which bind to residue {StartLocation} of this protein."
+    "output": "This protein requires {Cofactors}."
   }
 ]
