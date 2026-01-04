@@ -1,0 +1,142 @@
+[
+  {
+    "index": "EC-b-01",
+    "task": "ec number",
+    "instruction": "From the provided protein information, identify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is classified as {3}."
+  },
+  {
+    "index": "EC-b-02",
+    "task": "ec number",
+    "instruction": "Using the given protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has the EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is assigned to {3}."
+  },
+  {
+    "index": "EC-b-03",
+    "task": "ec number",
+    "instruction": "Based on the protein data provided, infer the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme is assigned the EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, and falls under {3}."
+  },
+  {
+    "index": "EC-b-04",
+    "task": "ec number",
+    "instruction": "Given the protein information, identify its EC number.",
+    "input": "{Sequence}",
+    "output": "According to the classification, its EC number is {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is grouped within {3}."
+  },
+  {
+    "index": "EC-b-05",
+    "task": "ec number",
+    "instruction": "Referencing the provided protein data, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme’s EC number is {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is placed in {3}."
+  },
+  {
+    "index": "EC-b-06",
+    "task": "ec number",
+    "instruction": "Based on the available protein details, identify the EC number.",
+    "input": "{Sequence}",
+    "output": "This protein corresponds to EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is categorized as {3}."
+  },
+  {
+    "index": "EC-b-07",
+    "task": "ec number",
+    "instruction": "From the given protein entry, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "Its EC number is {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is a member of {3}."
+  },
+  {
+    "index": "EC-b-08",
+    "task": "ec number",
+    "instruction": "Analyze the provided protein information to find its EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number corresponding to this enzyme is {ECNumbers}. It belongs to {1}, which are enzymes {2}, with classification in {3}."
+  },
+  {
+    "index": "EC-b-09",
+    "task": "ec number",
+    "instruction": "Using the given protein data, specify its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme is classified under EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, specifically within the {3} subgroup."
+  },
+  {
+    "index": "EC-b-10",
+    "task": "ec number",
+    "instruction": "From the protein details provided, determine the EC number.",
+    "input": "{Sequence}",
+    "output": "According to the enzyme classification, the EC number is {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is further classified as {3}."
+  },
+  {
+    "index": "EC-b-11",
+    "task": "ec number",
+    "instruction": "Given the provided protein record, identify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme is identified with EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is part of {3}."
+  },
+  {
+    "index": "EC-b-12",
+    "task": "ec number",
+    "instruction": "Based on the given protein description, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The corresponding EC number for this enzyme is {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is included in {3}."
+  },
+  {
+    "index": "EC-b-13",
+    "task": "ec number",
+    "instruction": "Using the protein information provided, infer the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme’s EC classification is {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is assigned to the {3} category."
+  },
+  {
+    "index": "EC-b-14",
+    "task": "ec number",
+    "instruction": "From the available protein data, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The Enzyme Commission number of this enzyme is {ECNumbers}. It belongs to {1}, which are enzymes {2}, with membership in {3}."
+  },
+  {
+    "index": "EC-b-15",
+    "task": "ec number",
+    "instruction": "Referencing the protein information, identify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is placed within {3}."
+  },
+  {
+    "index": "EC-b-16",
+    "task": "ec number",
+    "instruction": "Based on the protein entry provided, determine the EC number of this enzyme.",
+    "input": "{Sequence}",
+    "output": "The enzyme is categorized as EC {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is grouped under {3}."
+  },
+  {
+    "index": "EC-b-17",
+    "task": "ec number",
+    "instruction": "Using the available protein description, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme is assigned EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is classified within {3}."
+  },
+  {
+    "index": "EC-b-18",
+    "task": "ec number",
+    "instruction": "From the given protein characteristics, specify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The protein corresponds to EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, specifically categorized as {3}."
+  },
+  {
+    "index": "EC-b-19",
+    "task": "ec number",
+    "instruction": "Based on the provided protein record, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme has been assigned EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is designated as {3}."
+  },
+  {
+    "index": "EC-b-20",
+    "task": "ec number",
+    "instruction": "From the protein information, identify its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme is placed under EC number {ECNumbers}. It belongs to {1}, which are enzymes {2}, and is further placed in {3}."
+  }
+]

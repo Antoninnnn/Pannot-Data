@@ -1,0 +1,142 @@
+[
+  {
+    "index": "GO-b-01",
+    "task": "gene ontology",
+    "instruction": "Based on the protein information, identify the molecular function of this protein.",
+    "input": "{Sequence}",
+    "output": "This protein exhibits {GoMF}."
+  },
+  {
+    "index": "GO-b-02",
+    "task": "gene ontology",
+    "instruction": "From the given protein data, determine the molecular function associated with this protein.",
+    "input": "{Sequence}",
+    "output": "The molecular function of this protein is {GoMF}."
+  },
+  {
+    "index": "GO-b-03",
+    "task": "gene ontology",
+    "instruction": "Using the provided protein record, specify which molecular function this protein performs.",
+    "input": "{Sequence}",
+    "output": "It performs {GoMF}."
+  },
+  {
+    "index": "GO-b-04",
+    "task": "gene ontology",
+    "instruction": "Given the following protein information, identify the molecular function that this protein carries out.",
+    "input": "{Sequence}",
+    "output": "This protein carries out {GoMF}."
+  },
+  {
+    "index": "GO-b-05",
+    "task": "gene ontology",
+    "instruction": "Determine the molecular function that this protein is responsible for according to the provided protein information.",
+    "input": "{Sequence}",
+    "output": "According to the information, this protein is responsible for {GoMF}."
+  },
+  {
+    "index": "GO-b-06",
+    "task": "gene ontology",
+    "instruction": "Identify which molecular function this protein performs based on the given protein details.",
+    "input": "{Sequence}",
+    "output": "This protein performs {GoMF}."
+  },
+  {
+    "index": "GO-b-07",
+    "task": "gene ontology",
+    "instruction": "By analyzing the provided protein record, specify the molecular function of this protein.",
+    "input": "{Sequence}",
+    "output": "The molecular function of this protein is {GoMF}."
+  },
+  {
+    "index": "GO-b-08",
+    "task": "gene ontology",
+    "instruction": "Identify the molecular function this protein exhibits according to the given protein data.",
+    "input": "{Sequence}",
+    "output": "According to the data, this protein exhibits {GoMF}."
+  },
+  {
+    "index": "GO-b-09",
+    "task": "gene ontology",
+    "instruction": "Determine the molecular function related to this protein based on its record.",
+    "input": "{Sequence}",
+    "output": "This protein is related to {GoMF}."
+  },
+  {
+    "index": "GO-b-10",
+    "task": "gene ontology",
+    "instruction": "From the following protein information, identify which molecular function this protein shows.",
+    "input": "{Sequence}",
+    "output": "It shows {GoMF}."
+  },
+  {
+    "index": "GO-b-11",
+    "task": "gene ontology",
+    "instruction": "Based on the protein record, specify the molecular function that characterizes this protein.",
+    "input": "{Sequence}",
+    "output": "This protein is characterized by {GoMF}."
+  },
+  {
+    "index": "GO-b-12",
+    "task": "gene ontology",
+    "instruction": "According to the provided protein details, determine what molecular function this protein has.",
+    "input": "{Sequence}",
+    "output": "This protein has {GoMF}."
+  },
+  {
+    "index": "GO-b-13",
+    "task": "gene ontology",
+    "instruction": "From the protein information below, identify the molecular function that this protein carries out.",
+    "input": "{Sequence}",
+    "output": "It carries out {GoMF}."
+  },
+  {
+    "index": "GO-b-14",
+    "task": "gene ontology",
+    "instruction": "Using the given protein data, identify the molecular function that best describes this protein’s activity.",
+    "input": "{Sequence}",
+    "output": "The protein’s activity is described by {GoMF}."
+  },
+  {
+    "index": "GO-b-15",
+    "task": "gene ontology",
+    "instruction": "Based on the protein information, indicate the molecular function this protein exhibits.",
+    "input": "{Sequence}",
+    "output": "This protein exhibits {GoMF}."
+  },
+  {
+    "index": "GO-b-16",
+    "task": "gene ontology",
+    "instruction": "Using the provided protein information, determine the molecular function this protein performs.",
+    "input": "{Sequence}",
+    "output": "It performs {GoMF}."
+  },
+  {
+    "index": "GO-b-17",
+    "task": "gene ontology",
+    "instruction": "Identify the molecular function that this protein carries out based on the given protein record.",
+    "input": "{Sequence}",
+    "output": "This protein carries out {GoMF}."
+  },
+  {
+    "index": "GO-b-18",
+    "task": "gene ontology",
+    "instruction": "From the given protein information, infer the molecular function that this protein is known to perform.",
+    "input": "{Sequence}",
+    "output": "This protein is known to perform {GoMF}."
+  },
+  {
+    "index": "GO-b-19",
+    "task": "gene ontology",
+    "instruction": "Determine the molecular function to which this protein belongs based on its protein data.",
+    "input": "{Sequence}",
+    "output": "It belongs to {GoMF}."
+  },
+  {
+    "index": "GO-b-20",
+    "task": "gene ontology",
+    "instruction": "Given the protein details, identify the molecular function it performs.",
+    "input": "{Sequence}",
+    "output": "It performs {GoMF}."
+  }
+]

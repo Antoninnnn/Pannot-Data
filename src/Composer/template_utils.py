@@ -28,8 +28,10 @@ def append_sample_to_jsonl(sample, jsonl_path):
         f.write(json.dumps(sample, ensure_ascii=False) + "\n")
 
 
-def build_sample(sample_info, meta_info, template, ec_task=False, ec_number=None, ec_first_digit=None, ec_second_digit=None, ec_third_digit=None, ec_map=None):
-    # Helper to replace placeholders with corresponding protein information
+def build_sample(sample_info, meta_info, template, ec_task=False,
+                 ec_number=None, ec_first_digit=None, ec_second_digit=None,
+                 ec_third_digit=None, ec_map=None):
+
     def replace_placeholders(text, mapping):
         try:
             return PATTERN.sub(lambda m: mapping[m.group(1)], text)
@@ -49,29 +51,40 @@ def build_sample(sample_info, meta_info, template, ec_task=False, ec_number=None
                 return map_ec[first_digit]["subclasses"][second_digit]["subsubclasses"][third_digit]
             else:
                 raise ValueError(f"Unknown placeholder: {placeholder}")
-
         return PATTERN.sub(repl, text)
 
     sample_input = replace_placeholders(template["input"], meta_info)
+
     if ec_task:
-        sample_output = replace_placeholders_ec(template["output"], ec_number, ec_first_digit, ec_second_digit, ec_third_digit, ec_map)
+        sample_output = replace_placeholders_ec(
+            template["output"], ec_number, ec_first_digit, ec_second_digit, ec_third_digit, ec_map
+        )
+        start_loc, end_loc = None, None
     else:
-        sample_output = replace_placeholders(template["output"], sample_info)
+        sample_output = replace_placeholders(template["output"], sample_info) if sample_info else template["output"]
+
+        # Pull span if present in sample_info (Regions/Sites/BindingSite/etc.)
+        if isinstance(sample_info, dict):
+            start_loc = sample_info.get("StartLocation", None)
+            end_loc = sample_info.get("EndLocation", None)
+        else:
+            start_loc, end_loc = None, None
 
     sample_meta = {
-        "accession_id": meta_info["Accession"],
-        "entry_name": meta_info["EntryName"],
-        "sequence_length": meta_info["Length"],
-        "molecular_weight": meta_info["MolecularWeight"]
+        "accession_id": meta_info.get("Accession"),
+        # "entry_name": meta_info.get("EntryName"),
+        "sequence_length": meta_info.get("Length"),
+        # "molecular_weight": meta_info.get("MolecularWeight")
     }
 
     sample = {
-        "index": template["index"],
         "task": template["task"],
-        "instruction": template["instruction"],
-        "input": sample_input,
+        "instructions": template["instruction"],   # if you want field name "instructions"
+        "sequence": sample_input,                  # if template["input"] is "{Sequence}"
         "output": sample_output,
-        "meta": sample_meta
+        "StartLoc": start_loc,
+        "EndLoc": end_loc,
+        "meta_data": sample_meta
     }
 
     return sample

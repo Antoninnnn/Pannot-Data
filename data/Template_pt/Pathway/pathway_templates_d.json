@@ -1,0 +1,37 @@
+[
+  {
+    "index": "PW-d-01",
+    "task": "pathway",
+    "instruction": "Based on the provided protein information, describe the hierarchical pathway in which this protein is involved, emphasizing its position within the metabolic network.",
+    "input": "{Sequence}",
+    "output": "This protein is involved in {SubPathway}, which is a subpathway of {Pathway} belonging to the broader {SuperPathway}."
+  },
+  {
+    "index": "PW-d-02",
+    "task": "pathway",
+    "instruction": "Using the given protein data, summarize its participation in the hierarchical structure of the metabolic pathway.",
+    "input": "{Sequence}",
+    "output": "It functions in {SubPathway}, forming part of the {Pathway} pathway within the {SuperPathway}."
+  },
+  {
+    "index": "PW-d-03",
+    "task": "pathway",
+    "instruction": "Describe the multi-level metabolic context of this protein, focusing on the pathway relationships it is part of.",
+    "input": "{Sequence}",
+    "output": "This protein participates in {SubPathway}, which contributes to the {Pathway} pathway as a component of {SuperPathway}."
+  },
+  {
+    "index": "PW-d-04",
+    "task": "pathway",
+    "instruction": "Outline the pathway hierarchy that includes this protein, highlighting how it fits into the larger metabolic system.",
+    "input": "{Sequence}",
+    "output": "Engaged in {SubPathway}, this protein acts within the {Pathway} pathway of {SuperPathway}."
+  },
+  {
+    "index": "PW-d-05",
+    "task": "pathway",
+    "instruction": "Based on the annotation data, describe this protein’s hierarchical placement in its associated metabolic pathway.",
+    "input": "{Sequence}",
+    "output": "The protein operates in {SubPathway}, a branch of the {Pathway} pathway situated within {SuperPathway}."
+  }
+]

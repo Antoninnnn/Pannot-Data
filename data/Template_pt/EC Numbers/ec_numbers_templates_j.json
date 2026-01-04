@@ -1,0 +1,72 @@
+[
+  {
+    "index": "EC-j-01",
+    "task": "ec number",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, specifically the {2}."
+  },
+  {
+    "index": "EC-j-02",
+    "task": "ec number",
+    "instruction": "From the given protein details, identify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has the EC number {ECNumbers}. It belongs to {1}, more precisely the {2}."
+  },
+  {
+    "index": "EC-j-03",
+    "task": "ec number",
+    "instruction": "Using the provided protein information, determine its EC classification number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is classified as part of {1}, within the {2}."
+  },
+  {
+    "index": "EC-j-04",
+    "task": "ec number",
+    "instruction": "Given the information about this protein, specify its EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme is assigned EC number {ECNumbers}. It is part of {1}, under the {2}."
+  },
+  {
+    "index": "EC-j-05",
+    "task": "ec number",
+    "instruction": "Referencing the provided protein data, determine the EC number for this enzyme.",
+    "input": "{Sequence}",
+    "output": "This enzyme’s EC number is {ECNumbers}. It belongs to {1}, namely the {2}."
+  },
+  {
+    "index": "EC-j-06",
+    "task": "ec number",
+    "instruction": "Based on the protein description, identify its EC number and corresponding class.",
+    "input": "{Sequence}",
+    "output": "The EC number is {ECNumbers}. It falls under {1}, particularly the {2}."
+  },
+  {
+    "index": "EC-j-07",
+    "task": "ec number",
+    "instruction": "From the available protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is grouped within {1}, especially the {2}."
+  },
+  {
+    "index": "EC-j-08",
+    "task": "ec number",
+    "instruction": "Using the given protein information, identify which EC class this enzyme belongs to.",
+    "input": "{Sequence}",
+    "output": "This enzyme is classified with EC number {ECNumbers}. It belongs to {1}, categorized as the {2}."
+  },
+  {
+    "index": "EC-j-09",
+    "task": "ec number",
+    "instruction": "Analyze the provided protein information to find its EC classification.",
+    "input": "{Sequence}",
+    "output": "The enzyme’s EC number is {ECNumbers}. It is part of {1}, defined as the {2}."
+  },
+  {
+    "index": "EC-j-10",
+    "task": "ec number",
+    "instruction": "Given the protein characteristics, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, within the category of {2}."
+  }
+]

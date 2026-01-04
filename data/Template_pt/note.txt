@@ -1,0 +1,115 @@
+**EC Numbers**
+"EC-a": {ECNumbers}
+Note: noun phrase--gerund phrase--prepositional phrase (with)
+Note: Most of 1.X.X 
+
+"EC-b": {ECNumbers}
+Note: noun phrase--gerund phrase--noun phrase
+Note: 1.11.1; 2.1.X; 2.2.1; 2.6.1-3; 2.7.X; 2.8.1-3,5; 2.9.1; 2.10.1; 3.1.X; 3.3.X; 3.4.X; 3.13.2; 6.1.X; 6.2.1; 6.3.X; 
+
+"EC-c": {ECNumbers}
+Note: noun phrase--noun phrase--gerund phrase
+Note: 2.3.1; 2.4.99; 4.2.2,3; 5.1.X; 5.3.1-4; 5.4.1,3,4,99
+
+"EC-d": {ECNumbers}
+Note: noun phrase--noun phrase--noun phrase
+Note: 2.3.2; 2.4.1,2; 3.2.X; 4.1.X; 4.2.1,99; 4.3.X; 5.3.99; 5.4.2; 5.5.1
+
+"EC-e": {ECNumbers}
+Note: noun phrase--noun phrase--noun-modifying phrase
+Note: 2.3.3
+
+"EC-f": {ECNumbers}
+Note: noun phrase--gerund phrase--gerund phrase
+Note: 2.6.99; 2.8.4; 3.6.3-5; 3.13.1; 6.6.1
+
+"EC-g": {ECNumbers}
+Note: noun phrase--gerund phrase--prepositional phrase (in)
+Note: 3.5.X; 3.6.1,2; 3.7.1; 3.8.X
+
+"EC-h": {ECNumbers}
+Note: noun phrase--gerund phrase--adjective phrase
+Note: 1.13.99; 1.14.99; 7.1-4,6.X
+
+"EC-i": {ECNumbers}
+Note": noun phrase--gerund phrase
+Note: 1.15; 2.5; 3.9-12; 6.4,5
+
+"EC-j": {ECNumbers}
+Note: noun phrase-noun phrase
+1.97; 4.4-7,99; 5.2,99
+
+
+**Catalytic Activity**
+"CA-a": {Reaction}
+
+"CA-b": {Substrates} and {Products}
+
+
+**Cofactors**
+"CF-a": {Cofactors} and {Notes}
+Note: Convert the first letter of {Notes} from uppercase to lowercase
+
+"CF-b": {Cofactors}
+
+"CF-c": {Cofactors}, {StartLocation}, and {EndLocation}
+Note: Fetch information from the features block to specify the binding site at the residue-level
+Note: When {StartLocation} = {EndLocation}
+
+"CF-d": {Cofactors}, and {StartLocation}
+Note: Fetch information from the features block to specify the binding site at the residue-level
+Note: When {StartLocation} ≠ {EndLocation}
+
+
+**Subcellular Location**
+"SL-a": {SubcellularLocations} and {Notes}
+Note: Convert the first letter of {Notes} from uppercase to lowercase
+
+"SL-b": {SubcellularLocations}
+
+"SL-c": {Name}, {SubcellularLocations}, and {Notes}
+Note: Convert the first letter of {Notes} from uppercase to lowercase
+
+"SL-d": {Name} and {SubcellularLocations}
+
+
+**Pathway**
+"PW-a": {SuperPathway}, {Pathway}, {SubPathway}, and {Step}
+Note: Convert the first letter of {SuperPathway} from uppercase to lowercase
+
+"PW-b": {SuperPathway} and {Pathway}
+Note: Convert the first letter of {SuperPathway} from uppercase to lowercase
+
+"PW-c": {SuperPathway}
+Note: Convert the first letter of {SuperPathway} from uppercase to lowercase
+
+"PW-d": {SuperPathway}, {Pathway}, and {SubPathway}
+Note: Convert the first letter of {SuperPathway} from uppercase to lowercase
+
+
+**Gene Ontology**
+"GO-a": {GoBP}
+
+"GO-b": {GoMF}
+
+"GO-c": {GoCC}
+
+
+**Regions**
+"RG-a": {StartLocation}, {EndLocation}, and {Description}
+
+"RG-b": {StartLocation} and {EndLocation}
+
+
+**Sites**
+"ST-a": {StartLocation} and {Description}
+Note: When {StartLocation} = {EndLocation}
+
+"ST-b": {StartLocation}
+Note: When {StartLocation} = {EndLocation}
+
+"ST-c": {StartLocation}, {EndLocation}, and {Description}
+Note: When {StartLocation} ≠ {EndLocation}
+
+"ST-d": {StartLocation}, {EndLocation}
+Note: When {StartLocation} ≠ {EndLocation}

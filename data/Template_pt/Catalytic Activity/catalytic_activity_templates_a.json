@@ -1,0 +1,142 @@
+[
+    {
+        "index": "CA-a-01",
+        "task": "catalytic activity",
+        "instruction": "Based on the provided protein information, describe the catalytic reaction that this enzyme facilitates.",
+        "input": "{Sequence}",
+        "output": "Analysis of the protein suggests that this enzyme catalyzes the reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-02",
+        "task": "catalytic activity",
+        "instruction": "From the given protein information, identify the biochemical reaction that this enzyme is responsible for.",
+        "input": "{Sequence}",
+        "output": "This enzyme is known to catalyze the following biochemical transformation: {Reaction}."
+    },
+    {
+        "index": "CA-a-03",
+        "task": "catalytic activity",
+        "instruction": "Using the provided protein data, summarize the enzymatic reaction mediated by this enzyme.",
+        "input": "{Sequence}",
+        "output": "The enzyme mediates the catalytic process described as: {Reaction}."
+    },
+    {
+        "index": "CA-a-04",
+        "task": "catalytic activity",
+        "instruction": "Refer to the protein information and explain what reaction this enzyme catalyzes.",
+        "input": "{Sequence}",
+        "output": "The protein functions as an enzyme that catalyzes: {Reaction}."
+    },
+    {
+        "index": "CA-a-05",
+        "task": "catalytic activity",
+        "instruction": "Determine the catalytic function of this enzyme using the provided protein information.",
+        "input": "{Sequence}",
+        "output": "According to the analyzed protein data, the enzyme catalyzes this reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-06",
+        "task": "catalytic activity",
+        "instruction": "Analyze the given protein information and state the chemical reaction catalyzed by this enzyme.",
+        "input": "{Sequence}",
+        "output": "This enzyme facilitates the following chemical conversion: {Reaction}."
+    },
+    {
+        "index": "CA-a-07",
+        "task": "catalytic activity",
+        "instruction": "Identify the catalytic reaction carried out by the enzyme described in the protein information.",
+        "input": "{Sequence}",
+        "output": "The enzymatic activity corresponds to the reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-08",
+        "task": "catalytic activity",
+        "instruction": "Using the protein information, outline the main catalytic reaction performed by this enzyme.",
+        "input": "{Sequence}",
+        "output": "This enzyme performs the catalytic reaction represented as: {Reaction}."
+    },
+    {
+        "index": "CA-a-09",
+        "task": "catalytic activity",
+        "instruction": "From the provided protein information, specify the reaction mechanism that this enzyme catalyzes.",
+        "input": "{Sequence}",
+        "output": "The enzyme’s catalytic mechanism involves the reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-10",
+        "task": "catalytic activity",
+        "instruction": "Examine the protein information and describe the chemical transformation catalyzed by this enzyme.",
+        "input": "{Sequence}",
+        "output": "This enzyme promotes the reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-11",
+        "task": "catalytic activity",
+        "instruction": "From the available protein data, identify what substrate-to-product reaction this enzyme catalyzes.",
+        "input": "{Sequence}",
+        "output": "The catalytic role of this enzyme is summarized by the reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-12",
+        "task": "catalytic activity",
+        "instruction": "Consult the protein information to determine its catalytic function in terms of the reaction it performs.",
+        "input": "{Sequence}",
+        "output": "Functionally, the enzyme catalyzes the reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-13",
+        "task": "catalytic activity",
+        "instruction": "Describe the biochemical transformation catalyzed by this enzyme using the given protein information.",
+        "input": "{Sequence}",
+        "output": "The protein exhibits catalytic activity for the reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-14",
+        "task": "catalytic activity",
+        "instruction": "Identify the reaction equation that best represents the enzymatic activity described by the protein information.",
+        "input": "{Sequence}",
+        "output": "The enzyme’s activity is characterized by the reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-15",
+        "task": "catalytic activity",
+        "instruction": "Using the available protein data, report the enzymatic reaction this enzyme catalyzes.",
+        "input": "{Sequence}",
+        "output": "The enzyme is responsible for catalyzing: {Reaction}."
+    },
+    {
+        "index": "CA-a-16",
+        "task": "catalytic activity",
+        "instruction": "With reference to the protein information, summarize the catalytic conversion this enzyme mediates.",
+        "input": "{Sequence}",
+        "output": "The enzyme catalyzes the biochemical reaction: {Reaction}."
+    },
+    {
+        "index": "CA-a-17",
+        "task": "catalytic activity",
+        "instruction": "Analyze the enzyme’s functional characteristics and specify the catalytic process it performs.",
+        "input": "{Sequence}",
+        "output": "The enzymatic process can be expressed as: {Reaction}."
+    },
+    {
+        "index": "CA-a-18",
+        "task": "catalytic activity",
+        "instruction": "Examine the provided protein information and summarize the catalytic reaction carried out by this enzyme.",
+        "input": "{Sequence}",
+        "output": "The catalytic activity of this enzyme is represented by: {Reaction}."
+    },
+    {
+        "index": "CA-a-19",
+        "task": "catalytic activity",
+        "instruction": "Look into the given protein details and determine the enzymatic reaction it catalyzes.",
+        "input": "{Sequence}",
+        "output": "The reaction catalyzed by this enzyme is: {Reaction}."
+    },
+    {
+        "index": "CA-a-20",
+        "task": "catalytic activity",
+        "instruction": "Given the protein information, identify and describe the enzymatic reaction associated with this enzyme.",
+        "input": "{Sequence}",
+        "output": "This enzyme participates in the catalytic reaction: {Reaction}."
+    }
+]

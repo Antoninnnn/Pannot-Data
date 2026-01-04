@@ -1,0 +1,37 @@
+[
+  {
+    "index": "ST-c-01",
+    "task": "sites",
+    "instruction": "Given the protein information, could you specify the annotated site present in the sequence?",
+    "input": "{Sequence}",
+    "output": "This protein contains a site associated with {Content} ({Description})."
+  },
+  {
+    "index": "ST-c-02",
+    "task": "sites",
+    "instruction": "Based on the provided record, identify the annotated site and describe its biological role.",
+    "input": "{Sequence}",
+    "output": "The annotated site corresponds to {Content} ({Description})."
+  },
+  {
+    "index": "ST-c-03",
+    "task": "sites",
+    "instruction": "According to the protein data, indicate which site is annotated.",
+    "input": "{Sequence}",
+    "output": "This protein contains a site representing {Content} ({Description})."
+  },
+  {
+    "index": "ST-c-04",
+    "task": "sites",
+    "instruction": "Identify the functional site annotated in the protein and summarize its meaning.",
+    "input": "{Sequence}",
+    "output": "The annotated site is described as {Content} ({Description})."
+  },
+  {
+    "index": "ST-c-05",
+    "task": "sites",
+    "instruction": "Describe, based on the protein information, the multi-residue site present in this sequence.",
+    "input": "{Sequence}",
+    "output": "This protein includes a multi-residue site related to {Content} ({Description})."
+  }
+]

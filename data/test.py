@@ -3,7 +3,7 @@ import os
 import json
 
 # Add src directory to sys.path
-project_root = os.path.dirname(os.path.abspath(os.getcwd()))
+project_root = os.path.abspath(os.getcwd())
 src_path = os.path.join(project_root, "src")
 sys.path.append(src_path)
 

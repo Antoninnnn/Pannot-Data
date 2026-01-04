@@ -1,0 +1,142 @@
+[
+  {
+    "index": "RG-b-01",
+    "task": "regions",
+    "instruction": "Given the protein information, could you identify the region that carries a specific structural or functional role?",
+    "input": "{Sequence}",
+    "output": "This protein contains a region related to {Content}."
+  },
+  {
+    "index": "RG-b-02",
+    "task": "regions",
+    "instruction": "From the protein record, could you describe what biological feature this region corresponds to?",
+    "input": "{Sequence}",
+    "output": "This region corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-03",
+    "task": "regions",
+    "instruction": "Based on the protein data, what is the role of the annotated region?",
+    "input": "{Sequence}",
+    "output": "This region is associated with {Content}."
+  },
+  {
+    "index": "RG-b-04",
+    "task": "regions",
+    "instruction": "According to the provided record, which functional element does this region represent?",
+    "input": "{Sequence}",
+    "output": "This region represents {Content}."
+  },
+  {
+    "index": "RG-b-05",
+    "task": "regions",
+    "instruction": "Can you determine, from the protein information, what structural region is indicated here?",
+    "input": "{Sequence}",
+    "output": "This region indicates {Content} within the protein."
+  },
+  {
+    "index": "RG-b-06",
+    "task": "regions",
+    "instruction": "What kind of region is described according to the protein annotation?",
+    "input": "{Sequence}",
+    "output": "This annotated region forms {Content}."
+  },
+  {
+    "index": "RG-b-07",
+    "task": "regions",
+    "instruction": "From the given data, could you specify which part of the protein corresponds to this functional region?",
+    "input": "{Sequence}",
+    "output": "This part of the protein corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-08",
+    "task": "regions",
+    "instruction": "According to the annotation, what structural feature is associated with this part of the protein?",
+    "input": "{Sequence}",
+    "output": "This region is associated with {Content}."
+  },
+  {
+    "index": "RG-b-09",
+    "task": "regions",
+    "instruction": "Could you identify the function linked to this annotated region?",
+    "input": "{Sequence}",
+    "output": "This region is linked to {Content}."
+  },
+  {
+    "index": "RG-b-10",
+    "task": "regions",
+    "instruction": "From the available record, what feature does this region of the protein sequence describe?",
+    "input": "{Sequence}",
+    "output": "This region describes {Content} within the protein."
+  },
+  {
+    "index": "RG-b-11",
+    "task": "regions",
+    "instruction": "Identify the sequence region defined in the protein record and explain its function.",
+    "input": "{Sequence}",
+    "output": "The protein contains a region that corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-12",
+    "task": "regions",
+    "instruction": "Describe the annotated region found in the sequence according to the protein information.",
+    "input": "{Sequence}",
+    "output": "This region represents a functional element related to {Content}."
+  },
+  {
+    "index": "RG-b-13",
+    "task": "regions",
+    "instruction": "Determine the type of the region highlighted in the protein record.",
+    "input": "{Sequence}",
+    "output": "The highlighted region corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-14",
+    "task": "regions",
+    "instruction": "Summarize the information about the annotated region in the protein sequence.",
+    "input": "{Sequence}",
+    "output": "This region denotes {Content}."
+  },
+  {
+    "index": "RG-b-15",
+    "task": "regions",
+    "instruction": "According to the record, specify which functional region is annotated in the sequence.",
+    "input": "{Sequence}",
+    "output": "The annotated region corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-16",
+    "task": "regions",
+    "instruction": "Provide the functional meaning of the annotated region.",
+    "input": "{Sequence}",
+    "output": "This region relates to {Content}."
+  },
+  {
+    "index": "RG-b-17",
+    "task": "regions",
+    "instruction": "Identify and describe the region that carries structural importance in the sequence.",
+    "input": "{Sequence}",
+    "output": "This region forms a structural element corresponding to {Content}."
+  },
+  {
+    "index": "RG-b-18",
+    "task": "regions",
+    "instruction": "Determine the biological relevance of the annotated region according to the protein data.",
+    "input": "{Sequence}",
+    "output": "This region corresponds to {Content}."
+  },
+  {
+    "index": "RG-b-19",
+    "task": "regions",
+    "instruction": "Using the given protein record, describe the role of the annotated region.",
+    "input": "{Sequence}",
+    "output": "This region is related to {Content}."
+  },
+  {
+    "index": "RG-b-20",
+    "task": "regions",
+    "instruction": "Summarize, based on the protein data, what the annotated region represents.",
+    "input": "{Sequence}",
+    "output": "This region corresponds to {Content} in the protein."
+  }
+]

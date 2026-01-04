@@ -1,0 +1,37 @@
+[
+  {
+    "index": "CF-d-01",
+    "task": "cofactors",
+    "instruction": "Based on the provided protein information, identify the cofactors and specify the binding site positions where they bind to.",
+    "input": "{Sequence}",
+    "output": "This enzyme requires {Cofactors}, which bind to the site starting from residue {StartLocation} and ending at residue {EndLocation} of this protein."
+  },
+  {
+    "index": "CF-d-02",
+    "task": "cofactors",
+    "instruction": "From the given protein record, determine the cofactors and indicate the residue range where they bind to.",
+    "input": "{Sequence}",
+    "output": "The identified cofactors are {Cofactors}, binding to the region that begins at residue {StartLocation} and ends at residue {EndLocation} in this protein."
+  },
+  {
+    "index": "CF-d-03",
+    "task": "cofactors",
+    "instruction": "Using the provided protein data, find the cofactors and describe the binding site residues where they attach.",
+    "input": "{Sequence}",
+    "output": "This enzyme utilizes {Cofactors}, which attach to the binding site spanning residues {StartLocation} to {EndLocation} of the protein."
+  },
+  {
+    "index": "CF-d-04",
+    "task": "cofactors",
+    "instruction": "Based on the protein information, identify the cofactors involved and report the binding site region where they interact with the protein.",
+    "input": "{Sequence}",
+    "output": "The enzyme depends on {Cofactors}, binding to the site that extends from residue {StartLocation} to residue {EndLocation} of this protein."
+  },
+  {
+    "index": "CF-d-05",
+    "task": "cofactors",
+    "instruction": "Given the protein information, identify the cofactors and specify the range of residues that form their binding site.",
+    "input": "{Sequence}",
+    "output": "This enzyme requires {Cofactors}, which bind within the region from residue {StartLocation} to residue {EndLocation} of this protein."
+  }
+]

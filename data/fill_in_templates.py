@@ -2,7 +2,7 @@ import sys
 import os
 
 # Add src directory to sys.path
-project_root = os.path.dirname(os.path.abspath(os.getcwd()))
+project_root = os.path.abspath(os.getcwd())
 src_path = os.path.join(project_root, "src")
 sys.path.append(src_path)
 
@@ -13,7 +13,7 @@ id_list_path = os.path.join(data_path, "enzyme_id_list_test.txt")
 
 ec_map_path = os.path.join(maps_path, "ec_mapping.json")
 
-template_path = os.path.join(data_path, "Template")
+template_path = os.path.join(data_path, "Template_pt")
 ec_template_a_path = os.path.join(template_path, "EC Numbers", "ec_numbers_templates_a.json")
 ec_template_b_path = os.path.join(template_path, "EC Numbers", "ec_numbers_templates_b.json")
 ec_template_c_path = os.path.join(template_path, "EC Numbers", "ec_numbers_templates_c.json")

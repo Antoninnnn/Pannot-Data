@@ -1,0 +1,142 @@
+[
+  {
+    "index": "EC-a-01",
+    "task": "ec numbers",
+    "instruction": "From the provided protein information, identify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, which are enzymes {2} that generally act {3}."
+  },
+  {
+    "index": "EC-a-02",
+    "task": "ec numbers",
+    "instruction": "Using the given protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is categorized under {1}, a class of enzymes {2} that typically operate {3}."
+  },
+  {
+    "index": "EC-a-03",
+    "task": "ec numbers",
+    "instruction": "Based on the available protein data, infer the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is classified as part of {1}, a group of enzymes {2} that function {3}."
+  },
+  {
+    "index": "EC-a-04",
+    "task": "ec numbers",
+    "instruction": "Given the information about this protein, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. This enzyme is a member of {1}, which are enzymes {2} commonly acting {3}."
+  },
+  {
+    "index": "EC-a-05",
+    "task": "ec numbers",
+    "instruction": "Referencing the provided protein description, identify the EC number of the enzyme.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, a class of enzymes {2} that operate {3}."
+  },
+  {
+    "index": "EC-a-06",
+    "task": "ec numbers",
+    "instruction": "Based on the provided protein characteristics, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is assigned to {1}, which are enzymes {2} that normally function {3}."
+  },
+  {
+    "index": "EC-a-07",
+    "task": "ec numbers",
+    "instruction": "From the protein information given, specify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is part of {1}, a group of enzymes {2} that typically catalyze reactions {3}."
+  },
+  {
+    "index": "EC-a-08",
+    "task": "ec numbers",
+    "instruction": "Using the given protein data, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It belongs to {1}, enzymes {2} that carry out reactions {3}."
+  },
+  {
+    "index": "EC-a-09",
+    "task": "ec numbers",
+    "instruction": "Based on the provided protein record, identify the EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumbers}. It is grouped under {1}, a class of enzymes {2} that are generally involved {3}."
+  },
+  {
+    "index": "EC-a-10",
+    "task": "ec numbers",
+    "instruction": "From the available protein data, identify its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It belongs to {1}, which are enzymes {2} and generally act {3}."
+  },
+  {
+    "index": "EC-a-11",
+    "task": "ec numbers",
+    "instruction": "Analyze the provided protein information to determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It is classified as part of {1}, a group of enzymes {2} that operate {3}."
+  },
+  {
+    "index": "EC-a-12",
+    "task": "ec numbers",
+    "instruction": "Given the protein information, identify the corresponding EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It is categorized under {1}, a group of enzymes {2} that typically operate {3}."
+  },
+  {
+    "index": "EC-a-13",
+    "task": "ec numbers",
+    "instruction": "Based on the given protein description, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It belongs to {1}, a class of enzymes {2} that catalyze reactions {3}."
+  },
+  {
+    "index": "EC-a-14",
+    "task": "ec numbers",
+    "instruction": "Using the available protein data, infer the EC number for this enzyme.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It is part of {1}, a class of enzymes {2} that typically catalyze reactions {3}."
+  },
+  {
+    "index": "EC-a-15",
+    "task": "ec numbers",
+    "instruction": "From the given protein information, specify its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It is assigned to {1}, which are enzymes {2} that usually function {3}."
+  },
+  {
+    "index": "EC-a-16",
+    "task": "ec numbers",
+    "instruction": "Using the provided protein characteristics, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It is grouped under {1}, a class of enzymes {2} that generally act {3}."
+  },
+  {
+    "index": "EC-a-17",
+    "task": "ec numbers",
+    "instruction": "Based on the available protein information, determine the EC number of this enzyme.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It belongs to {1}, enzymes {2} that carry out reactions {3}."
+  },
+  {
+    "index": "EC-a-18",
+    "task": "ec numbers",
+    "instruction": "Referencing the given protein record, identify its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It is categorized within {1}, a group of enzymes {2} that typically function {3}."
+  },
+  {
+    "index": "EC-a-19",
+    "task": "ec numbers",
+    "instruction": "Using the protein information provided, identify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It is classified within {1}, a class of enzymes {2} that usually operate {3}."
+  },
+  {
+    "index": "EC-a-20",
+    "task": "ec numbers",
+    "instruction": "From the provided protein entry, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumbers}. It is part of {1}, a class of enzymes {2} that commonly act {3}."
+  }
+]
