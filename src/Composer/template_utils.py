@@ -5,6 +5,31 @@ import json
 import random
 import warnings
 
+
+import csv
+
+DEFAULT_FIELDS = [
+    "task",
+    "instructions",
+    "sequence",
+    "text_label",
+    "StartLoc",
+    "EndLoc",
+    "accession_id",
+    "sequence_length",
+]
+
+def append_row_to_table(row, table_path, fmt="tsv", fieldnames=DEFAULT_FIELDS):
+    os.makedirs(os.path.dirname(table_path), exist_ok=True)
+    delimiter = "\t" if fmt.lower() == "tsv" else ","
+    write_header = (not os.path.exists(table_path)) or (os.path.getsize(table_path) == 0)
+
+    with open(table_path, "a", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=delimiter)
+        if write_header:
+            writer.writeheader()
+        writer.writerow(row)
+
 # Add src directory to sys.path
 project_root = os.path.dirname(os.path.abspath(os.getcwd()))
 src_path = os.path.join(project_root, "src")
@@ -81,7 +106,7 @@ def build_sample(sample_info, meta_info, template, ec_task=False,
         "task": template["task"],
         "instructions": template["instruction"],   # if you want field name "instructions"
         "sequence": sample_input,                  # if template["input"] is "{Sequence}"
-        "output": sample_output,
+        "text_label": sample_output,
         "StartLoc": start_loc,
         "EndLoc": end_loc,
         "meta_data": sample_meta
@@ -89,11 +114,76 @@ def build_sample(sample_info, meta_info, template, ec_task=False,
 
     return sample
 
+def build_sample_csv(sample_info, meta_info, template, ec_task=False,
+                 ec_number=None, ec_first_digit=None, ec_second_digit=None,
+                 ec_third_digit=None, ec_map=None):
+    """
+    Returns a flat dict (one row) suitable for CSV/TSV writing.
+    Columns:
+      task, instructions, sequence, text_label, StartLoc, EndLoc, accession_id, sequence_length
+    """
+
+    def replace_placeholders(text, mapping):
+        try:
+            return PATTERN.sub(lambda m: str(mapping[m.group(1)]), text)
+        except KeyError as e:
+            raise ValueError(f"Missing field for placeholder: {e.args[0]}")
+
+    def replace_placeholders_ec(text, ec, first_digit, second_digit, third_digit, map_ec):
+        def repl(m):
+            placeholder = m.group(1)
+            if placeholder == "ECNumbers":
+                return ec
+            elif placeholder == "1":
+                return map_ec[first_digit]["name"]
+            elif placeholder == "2":
+                return map_ec[first_digit]["subclasses"][second_digit]["name"]
+            elif placeholder == "3":
+                return map_ec[first_digit]["subclasses"][second_digit]["subsubclasses"][third_digit]
+            else:
+                raise ValueError(f"Unknown placeholder: {placeholder}")
+        return PATTERN.sub(repl, text)
+
+    # Template input is typically "{Sequence}" and should be resolvable from meta_info
+    sequence_text = replace_placeholders(template["input"], meta_info)
+
+    if ec_task:
+        text_label = replace_placeholders_ec(
+            template["output"], ec_number, ec_first_digit, ec_second_digit, ec_third_digit, ec_map
+        )
+        start_loc, end_loc = None, None
+    else:
+        # Fill normal placeholders (Content/Description/StartLocation/EndLocation/etc.)
+        text_label = replace_placeholders(template["output"], sample_info) if sample_info else template["output"]
+
+        if isinstance(sample_info, dict):
+            start_loc = sample_info.get("StartLocation")
+            end_loc = sample_info.get("EndLocation")
+            # Optional: normalize single-site records to have EndLoc = StartLoc
+            if start_loc is not None and end_loc is None:
+                end_loc = start_loc
+        else:
+            start_loc, end_loc = None, None
+
+    # Flatten meta into top-level columns for TSV/CSV
+    row = {
+        "task": template.get("task"),
+        "instructions": template.get("instruction"),
+        "sequence": sequence_text,
+        "text_label": text_label,
+        "StartLoc": start_loc,
+        "EndLoc": end_loc,
+        "accession_id": meta_info.get("Accession"),
+        "sequence_length": meta_info.get("Length"),
+    }
+
+    return row
+
 
 def gen_and_append(sample_info, meta_info, template_path, sample_path, ec_task=False, ec_number=None, ec_first_digit=None, ec_second_digit=None, ec_third_digit=None, ec_map=None):
     template = load_random_entry(template_path)
-    sample = build_sample(sample_info, meta_info, template, ec_task, ec_number, ec_first_digit, ec_second_digit, ec_third_digit, ec_map)
-    append_sample_to_jsonl(sample, sample_path)
+    sample = build_sample_csv(sample_info, meta_info, template, ec_task, ec_number, ec_first_digit, ec_second_digit, ec_third_digit, ec_map)
+    append_row_to_table(sample, sample_path)
 
 
 def create_samples_ec(meta_info, ec_map_path, template_a_path, template_b_path, template_c_path, template_d_path, template_e_path, template_f_path, template_g_path, template_h_path, template_i_path, template_j_path, sample_path):
