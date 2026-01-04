@@ -10,7 +10,12 @@
 #SBATCH -o logs/%x_%A_%a.out
 #SBATCH -e logs/%x_%A_%a.err
 
+
 set -euo pipefail
+
+ml WebProxy
+ml Anaconda3
+source activate base
 
 cd /scratch/user/yining_yang/TAMU/PhD/Pannot/Pannot-Data
 mkdir -p logs
