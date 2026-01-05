@@ -288,8 +288,15 @@ def create_samples_cf(comments_info, meta_info, template_a_path, template_b_path
             gen_and_append(cf_info, meta_info, template_a_path, sample_path)
         elif cf_info["Cofactors"] and not cf_info["Notes"]:
             gen_and_append(cf_info, meta_info, template_b_path, sample_path)
+        # else:
+        #     raise ValueError(f'Invalid data on cofactors: {cf_info}')
         else:
-            raise ValueError(f'Invalid data on cofactors: {cf_info}')
+            # minimal change: warn and skip instead of raising
+            warnings.warn(
+                f"Skipping invalid cofactor annotation: {cf_info}",
+                RuntimeWarning
+            )
+            continue
 
 
 def create_sample_cf_residue_level(comments_info, feature_info, meta_info, template_c_path, template_d_path, sample_path):

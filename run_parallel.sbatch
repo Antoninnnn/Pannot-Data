@@ -1,26 +1,26 @@
 #!/bin/bash
 #SBATCH -J pannot_fill
-#SBATCH -p cpu              # adjust if needed
+#SBATCH -p medium
 #SBATCH -N 1
 #SBATCH -n 1
-#SBATCH -c 4                # UniProt parsing is CPU-bound
+#SBATCH -c 4
 #SBATCH --mem=8G
-#SBATCH -t 06:00:00
-#SBATCH --array=1-40
+#SBATCH -t 72:00:00
+#SBATCH --array=1-41
 #SBATCH -o logs/%x_%A_%a.out
 #SBATCH -e logs/%x_%A_%a.err
 
-
 set -euo pipefail
+
+mkdir -p logs
 
 ml WebProxy
 ml Anaconda3
 source activate base
 
-cd /scratch/user/yining_yang/TAMU/PhD/Pannot/Pannot-Data
-mkdir -p logs
+ID_FILE="data/SwissProt/train_ids/train_ids_${SLURM_ARRAY_TASK_ID}.txt"
+test -f "${ID_FILE}" || { echo "Missing ${ID_FILE}"; exit 1; }
 
-ID_FILE="data/train_ids/train_id_${SLURM_ARRAY_TASK_ID}.txt"
-
-python data/fill_in_templates_parallel.py \
-  --id_list_path "${ID_FILE}"
+python -m data.fill_in_templates_parallel \
+  --id_list_path "${ID_FILE}" \
+  --log_every 50
