@@ -1,0 +1,25 @@
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 2.5.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 1.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 4.98.1.1
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 3.1.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 1.16.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 3.6.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:318: RuntimeWarning: Skipping invalid cofactor annotation: {'Cofactors': None, 'ListOfCofactors': None, 'Notes': 'Binds multiple chlorophylls and provides some of the ligands for the Ca-4Mn-5O cluster of the oxygen-evolving complex. It may also provide a ligand for a Cl- that is required for oxygen evolution. PSII binds additional chlorophylls, carotenoids and specific lipids.'}
+  warnings.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 255, in <module>
+    main()
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 208, in main
+    create_sample_cf_residue_level(
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py", line 331, in create_sample_cf_residue_level
+    if binding_site["Ligand"] in cofactors_at_one_site["ListOfCofactors"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable

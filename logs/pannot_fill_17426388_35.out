@@ -1,0 +1,7 @@
+=== Shard: train_ids_35 ===
+ID file: data/SwissProt/train_ids/train_ids_35.txt
+Output root: /scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/Sample/train_ids_35
+[train_ids_35] processed 50 proteins
+[train_ids_35] processed 100 proteins
+[train_ids_35] processed 150 proteins
+[train_ids_35] processed 200 proteins

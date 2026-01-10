@@ -1,0 +1,34 @@
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 1.1.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 1.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 5.6.1.7
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 3.1.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 1.14.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 3.6.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 1.3.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 7.5.2.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 5.6.2.1
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 7.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 2.7.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 5.6.2.2
+  warnings.warn(f"Unknown EC number {ec_number}")
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 255, in <module>
+    main()
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 203, in main
+    create_samples_cf(
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py", line 292, in create_samples_cf
+    raise ValueError(f'Invalid data on cofactors: {cf_info}')
+ValueError: Invalid data on cofactors: {'Cofactors': None, 'ListOfCofactors': None, 'Notes': 'The D1/D2 heterodimer binds P680, chlorophylls that are the primary electron donor of PSII, and subsequent electron acceptors. It shares a non-heme iron and each subunit binds pheophytin, quinone, additional chlorophylls, carotenoids and lipids. D1 provides most of the ligands for the Mn4-Ca-O5 cluster of the oxygen-evolving complex (OEC). There is also a Cl(-1) ion associated with D1 and D2, which is required for oxygen evolution. The PSII complex binds additional chlorophylls, carotenoids and specific lipids.'}

@@ -1,0 +1,35 @@
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 1.14.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 7.5.2.6
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 7.5.2.7
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 7.5.2.11
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 5.6.1.7
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 4.98.1.1
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 7.5.2.12
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 3.1.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 3.6.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 5.6.2.4
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 6.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:295: RuntimeWarning: Skipping invalid cofactor annotation: {'Cofactors': None, 'ListOfCofactors': None, 'Notes': 'The D1/D2 heterodimer binds P680, chlorophylls that are the primary electron donor of PSII, and subsequent electron acceptors. It shares a non-heme iron and each subunit binds pheophytin, quinone, additional chlorophylls, carotenoids and lipids. There is also a Cl(-1) ion associated with D1 and D2, which is required for oxygen evolution. The PSII complex binds additional chlorophylls, carotenoids and specific lipids.'}
+  warnings.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 255, in <module>
+    main()
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 208, in main
+    create_sample_cf_residue_level(
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py", line 308, in create_sample_cf_residue_level
+    if binding_site["Ligand"] in cofactors_at_one_site["ListOfCofactors"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable

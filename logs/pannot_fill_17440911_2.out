@@ -1,0 +1,13 @@
+=== Shard: train_condensed_002 ===
+ID file: data/SwissProt/train_condensed_chunks/train_condensed_002.txt
+Output root: /scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/Sample/train_condensed_002
+[train_condensed_002] processed 50 proteins
+[train_condensed_002] processed 100 proteins
+[train_condensed_002] processed 150 proteins
+[train_condensed_002] processed 200 proteins
+[train_condensed_002] processed 250 proteins
+[train_condensed_002] processed 300 proteins
+[train_condensed_002] processed 350 proteins
+[train_condensed_002] processed 400 proteins
+[train_condensed_002] processed 450 proteins
+[train_condensed_002] processed 500 proteins

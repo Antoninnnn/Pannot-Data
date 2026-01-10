@@ -1,0 +1,19 @@
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 3.4.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 3.1.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 5.6.1.7
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 1.14.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 2.7.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 4.98.1.1
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 5.6.2.4
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 6.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:265: UserWarning: Unknown EC number 3.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+slurmstepd: error: *** JOB 17415806 ON c238 CANCELLED AT 2026-01-05T04:26:51 DUE TO TIME LIMIT ***

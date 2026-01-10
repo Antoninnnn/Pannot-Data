@@ -1,0 +1,65 @@
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 2.4.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 1.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/uniprot_utils.py:41: UserWarning: [Unexpected Key Missing] Protein: Q96PG8 | Field: comments[3] | Field Type: SUBCELLULAR LOCATION | Missing Path: ["subcellularLocations"]
+  warnings.warn(f"[Unexpected Key Missing] Protein: {protein_id} | Field: {field}[{field_idx}] | Field Type: {field_type} | Missing Path: {path}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 5.6.2.3
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 3.6.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 3.1.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/uniprot_utils.py:41: UserWarning: [Unexpected Key Missing] Protein: Q96V81 | Field: comments[2] | Field Type: SUBCELLULAR LOCATION | Missing Path: ["subcellularLocations"]
+  warnings.warn(f"[Unexpected Key Missing] Protein: {protein_id} | Field: {field}[{field_idx}] | Field Type: {field_type} | Missing Path: {path}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 5.6.2.4
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 5.6.2.2
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 7.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 4.98.1.1
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 3.4.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 7.5.2.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 1.13.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:318: RuntimeWarning: Skipping invalid cofactor annotation: {'Cofactors': None, 'ListOfCofactors': None, 'Notes': 'Does not require a metal cofactor.'}
+  warnings.warn(
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 5.6.2.1
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 7.5.2.3
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 7.5.2.7
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 1.1.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 5.1.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 3.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 2.7.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 1.14.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 2.5.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 4.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:280: UserWarning: Unknown EC number 6.-.-.-
+  warnings.warn(f"Unknown EC number {ec_number}")
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:318: RuntimeWarning: Skipping invalid cofactor annotation: {'Cofactors': None, 'ListOfCofactors': None, 'Notes': 'Binds at least 14 chlorophylls (8 Chl-a and 6 Chl-b) and carotenoids such as lutein and neoxanthin.'}
+  warnings.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 255, in <module>
+    main()
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 208, in main
+    create_sample_cf_residue_level(
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py", line 331, in create_sample_cf_residue_level
+    if binding_site["Ligand"] in cofactors_at_one_site["ListOfCofactors"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable

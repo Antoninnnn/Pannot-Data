@@ -6,6 +6,14 @@ import random
 import warnings
 
 
+
+def safe_lc_first(s):
+    if not isinstance(s, str):
+        return s
+    s = s.strip()
+    return (s[0].lower() + s[1:]) if s else s
+
+
 import csv
 
 DEFAULT_FIELDS = [
@@ -181,9 +189,16 @@ def build_sample_csv(sample_info, meta_info, template, ec_task=False,
 
 
 def gen_and_append(sample_info, meta_info, template_path, sample_path, ec_task=False, ec_number=None, ec_first_digit=None, ec_second_digit=None, ec_third_digit=None, ec_map=None):
-    template = load_random_entry(template_path)
-    sample = build_sample_csv(sample_info, meta_info, template, ec_task, ec_number, ec_first_digit, ec_second_digit, ec_third_digit, ec_map)
-    append_row_to_table(sample, sample_path)
+    try:
+        template = load_random_entry(template_path)
+        sample = build_sample_csv(sample_info, meta_info, template, ec_task, ec_number, ec_first_digit, ec_second_digit, ec_third_digit, ec_map)
+        append_row_to_table(sample, sample_path)
+    except Exception as e:
+        warnings.warn(
+            f"gen_and_append failed: {e}. template_path={template_path}. sample_info={sample_info}",
+            RuntimeWarning
+        )
+        return
 
 
 def create_samples_ec(meta_info, ec_map_path, template_a_path, template_b_path, template_c_path, template_d_path, template_e_path, template_f_path, template_g_path, template_h_path, template_i_path, template_j_path, sample_path):
@@ -269,15 +284,23 @@ def create_samples_ec(meta_info, ec_map_path, template_a_path, template_b_path, 
 
 
 def create_samples_ca(comments_info, meta_info, template_a_path, template_b_path, sample_a_path, sample_b_path):
-    ca_infos = comments_info["CatalyticActivity"]
+    ca_infos = comments_info.get("CatalyticActivity") or []
     for ca_info in ca_infos:
-        if ca_info["Reaction"]:
-            gen_and_append(ca_info, meta_info, template_a_path, sample_a_path)
+        if ca_info.get("Reaction"):
+            try:
+                gen_and_append(ca_info, meta_info, template_a_path, sample_a_path)
+            except Exception as e:
+                warnings.warn(f"Skipping catalytic activity (template error): {e}. Data: {ca_info}", RuntimeWarning)
         else:
-            raise ValueError(f'Invalid data on catalytic activity: {ca_info}')
+            warnings.warn(f"Skipping invalid catalytic activity (no Reaction): {ca_info}", RuntimeWarning)
+            continue
 
-        if ca_info["Substrates"] and ca_info["Products"]:
-            gen_and_append(ca_info, meta_info, template_b_path, sample_b_path)
+        if ca_info.get("Substrates") and ca_info.get("Products"):
+            try:
+                gen_and_append(ca_info, meta_info, template_b_path, sample_b_path)
+            except Exception as e:
+                warnings.warn(f"Skipping catalytic activity substrates/products (template error): {e}. Data: {ca_info}", RuntimeWarning)
+                continue
 
 
 def create_samples_cf(comments_info, meta_info, template_a_path, template_b_path, sample_path):
@@ -304,6 +327,14 @@ def create_sample_cf_residue_level(comments_info, feature_info, meta_info, templ
     binding_sites = feature_info["BindingSite"]
     sample_infos = []
     for cofactors_at_one_site in cofactors_at_different_sites:
+    
+        if cofactors_at_one_site["ListOfCofactors"] is None:
+            print(
+                "[WARN] Skip cofactor site with None ListOfCofactors:",
+                cofactors_at_one_site
+            )
+            continue
+        # ---------------------
         for binding_site in binding_sites:
             if binding_site["Ligand"] in cofactors_at_one_site["ListOfCofactors"]:
                 record = {
@@ -323,37 +354,54 @@ def create_sample_cf_residue_level(comments_info, feature_info, meta_info, templ
 
 
 def create_samples_sl(comments_info, meta_info, template_a_path, template_b_path, template_c_path, template_d_path, sample_path):
-    sl_infos = comments_info["SubcellularLocation"]
+    sl_infos = comments_info.get("SubcellularLocation") or []
     for sl_info in sl_infos:
-        if sl_info["Name"] == "Canonical" and sl_info["SubcellularLocations"] and sl_info["Notes"]:
-            sl_info["Notes"] = sl_info["Notes"][0].lower() + sl_info["Notes"][1:]
-            gen_and_append(sl_info, meta_info, template_a_path, sample_path)
-        elif sl_info["Name"] == "Canonical" and sl_info["SubcellularLocations"] and not sl_info["Notes"]:
-            gen_and_append(sl_info, meta_info, template_b_path, sample_path)
-        elif sl_info["Name"] != "Canonical" and sl_info["SubcellularLocations"] and sl_info["Notes"]:
-            sl_info["Notes"] = sl_info["Notes"][0].lower() + sl_info["Notes"][1:]
-            gen_and_append(sl_info, meta_info, template_c_path, sample_path)
-        elif sl_info["Name"] != "Canonical" and sl_info["SubcellularLocations"] and not sl_info["Notes"]:
-            gen_and_append(sl_info, meta_info, template_d_path, sample_path)
-        else:
-            raise ValueError(f'Invalid data on subcellular location: {sl_info}')
+        try:
+            name = sl_info.get("Name")
+            has_loc = bool(sl_info.get("SubcellularLocations"))
+            notes = sl_info.get("Notes")
+            has_notes = isinstance(notes, str) and notes.strip() != ""
 
+            if has_notes:
+                sl_info["Notes"] = safe_lc_first(notes)
+
+            if name == "Canonical" and has_loc and has_notes:
+                gen_and_append(sl_info, meta_info, template_a_path, sample_path)
+            elif name == "Canonical" and has_loc and not has_notes:
+                gen_and_append(sl_info, meta_info, template_b_path, sample_path)
+            elif name != "Canonical" and has_loc and has_notes:
+                gen_and_append(sl_info, meta_info, template_c_path, sample_path)
+            elif name != "Canonical" and has_loc and not has_notes:
+                gen_and_append(sl_info, meta_info, template_d_path, sample_path)
+            else:
+                warnings.warn(f"Skipping invalid subcellular location: {sl_info}", RuntimeWarning)
+                continue
+
+        except Exception as e:
+            warnings.warn(f"Skipping subcellular location due to error: {e}. Data: {sl_info}", RuntimeWarning)
+            continue
 
 def create_samples_pw(comments_info, meta_info, template_a_path, template_b_path, template_c_path, template_d_path, sample_path):
-    pw_infos = comments_info["Pathway"]
+    pw_infos = comments_info.get("Pathway") or []
     for pw_info in pw_infos:
-        pw_info["SuperPathway"] = pw_info["SuperPathway"][0].lower() + pw_info["SuperPathway"][1:]
+        try:
+            pw_info["SuperPathway"] = safe_lc_first(pw_info.get("SuperPathway"))
 
-        if pw_info["SuperPathway"] and pw_info["Pathway"] and pw_info["SubPathway"] and pw_info["Step"]:
-            gen_and_append(pw_info, meta_info, template_a_path, sample_path)
-        elif pw_info["SuperPathway"] and pw_info["Pathway"] and not pw_info["SubPathway"] and not pw_info["Step"]:
-            gen_and_append(pw_info, meta_info, template_b_path, sample_path)
-        elif pw_info["SuperPathway"] and not pw_info["Pathway"] and not pw_info["SubPathway"] and not pw_info["Step"]:
-            gen_and_append(pw_info, meta_info, template_c_path, sample_path)
-        elif pw_info["SuperPathway"] and pw_info["Pathway"] and pw_info["SubPathway"] and not pw_info["Step"]:
-            gen_and_append(pw_info, meta_info, template_d_path, sample_path)
-        else:
-            raise ValueError(f'Invalid data on pathway: {pw_info}')
+            if pw_info.get("SuperPathway") and pw_info.get("Pathway") and pw_info.get("SubPathway") and pw_info.get("Step"):
+                gen_and_append(pw_info, meta_info, template_a_path, sample_path)
+            elif pw_info.get("SuperPathway") and pw_info.get("Pathway") and not pw_info.get("SubPathway") and not pw_info.get("Step"):
+                gen_and_append(pw_info, meta_info, template_b_path, sample_path)
+            elif pw_info.get("SuperPathway") and not pw_info.get("Pathway") and not pw_info.get("SubPathway") and not pw_info.get("Step"):
+                gen_and_append(pw_info, meta_info, template_c_path, sample_path)
+            elif pw_info.get("SuperPathway") and pw_info.get("Pathway") and pw_info.get("SubPathway") and not pw_info.get("Step"):
+                gen_and_append(pw_info, meta_info, template_d_path, sample_path)
+            else:
+                warnings.warn(f"Skipping invalid pathway: {pw_info}", RuntimeWarning)
+                continue
+
+        except Exception as e:
+            warnings.warn(f"Skipping pathway due to error: {e}. Data: {pw_info}", RuntimeWarning)
+            continue
 
 
 def create_samples_go(cross_references_info, meta_info, template_a_path, template_b_path, template_c_path, sample_a_path, sample_b_path, sample_c_path):

@@ -1,0 +1,13 @@
+/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py:295: RuntimeWarning: Skipping invalid cofactor annotation: {'Cofactors': None, 'ListOfCofactors': None, 'Notes': 'None. Contrary to most other dioxygenases, this enzyme does not require a cofactor for catalysis.'}
+  warnings.warn(
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 255, in <module>
+    main()
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/data/fill_in_templates_parallel.py", line 208, in main
+    create_sample_cf_residue_level(
+  File "/scratch/user/yining_yang/TAMU/PhD/Pannot-Data/src/Composer/template_utils.py", line 308, in create_sample_cf_residue_level
+    if binding_site["Ligand"] in cofactors_at_one_site["ListOfCofactors"]:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
