@@ -6,7 +6,6 @@ The current release is **v1.0**
 ## Release History
 
 - **v1.0** (Jan 2026)
-  - 1213
 
 ## Environment Setup
 
