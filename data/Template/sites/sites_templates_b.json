@@ -1,0 +1,143 @@
+[
+  {
+    "index": "ST-b-01",
+    "task": "sites",
+    "instruction": "Given the protein information, could you identify the specific site present in the sequence?",
+    "input": "{Sequence}",
+    "output": "Residue {StartLocation} in this protein corresponds to {Content}."
+  },
+  {
+    "index": "ST-b-02",
+    "task": "sites",
+    "instruction": "Based on the provided record, what is the site annotated at this residue?",
+    "input": "{Sequence}",
+    "output": "The site located at residue {StartLocation} is associated with {Content}."
+  },
+  {
+    "index": "ST-b-03",
+    "task": "sites",
+    "instruction": "According to the protein data, could you describe the function of the site found at this position?",
+    "input": "{Sequence}",
+    "output": "At residue {StartLocation}, the protein exhibits {Content}."
+  },
+  {
+    "index": "ST-b-04",
+    "task": "sites",
+    "instruction": "From the given protein record, could you indicate what site is defined at this residue?",
+    "input": "{Sequence}",
+    "output": "Residue {StartLocation} is annotated as {Content}."
+  },
+  {
+    "index": "ST-b-05",
+    "task": "sites",
+    "instruction": "Could you specify which type of site appears at this residue position?",
+    "input": "{Sequence}",
+    "output": "The residue at position {StartLocation} corresponds to {Content}."
+  },
+  {
+    "index": "ST-b-06",
+    "task": "sites",
+    "instruction": "From the annotation, what site is located at residue {StartLocation}?",
+    "input": "{Sequence}",
+    "output": "Residue {StartLocation} serves as {Content}."
+  },
+  {
+    "index": "ST-b-07",
+    "task": "sites",
+    "instruction": "Could you identify the biological site that occurs at this residue?",
+    "input": "{Sequence}",
+    "output": "The site at residue {StartLocation} relates to {Content}."
+  },
+  {
+    "index": "ST-b-08",
+    "task": "sites",
+    "instruction": "From the protein record, what functional role does the site at residue {StartLocation} play?",
+    "input": "{Sequence}",
+    "output": "Residue {StartLocation} plays a role in {Content}."
+  },
+  {
+    "index": "ST-b-09",
+    "task": "sites",
+    "instruction": "According to the protein information, which site is present at this position?",
+    "input": "{Sequence}",
+    "output": "The site defined at residue {StartLocation} corresponds to {Content}."
+  },
+  {
+    "index": "ST-b-10",
+    "task": "sites",
+    "instruction": "Can you determine what type of site is described at this residue?",
+    "input": "{Sequence}",
+    "output": "At residue {StartLocation}, this protein contains {Content}."
+  },
+
+  {
+    "index": "ST-b-11",
+    "task": "sites",
+    "instruction": "Identify the site annotated at residue {StartLocation} according to the protein record.",
+    "input": "{Sequence}",
+    "output": "Residue {StartLocation} corresponds to {Content}."
+  },
+  {
+    "index": "ST-b-12",
+    "task": "sites",
+    "instruction": "Describe the site found at this position based on the annotation.",
+    "input": "{Sequence}",
+    "output": "The site at residue {StartLocation} is associated with {Content}."
+  },
+  {
+    "index": "ST-b-13",
+    "task": "sites",
+    "instruction": "Determine the site indicated by the annotation at this residue.",
+    "input": "{Sequence}",
+    "output": "Residue {StartLocation} indicates {Content}."
+  },
+  {
+    "index": "ST-b-14",
+    "task": "sites",
+    "instruction": "Summarize the annotation of the site located at residue {StartLocation}.",
+    "input": "{Sequence}",
+    "output": "This residue ({StartLocation}) represents {Content}."
+  },
+  {
+    "index": "ST-b-15",
+    "task": "sites",
+    "instruction": "According to the protein data, specify the function of the site found at this position.",
+    "input": "{Sequence}",
+    "output": "The residue {StartLocation} corresponds to {Content} in this protein."
+  },
+  {
+    "index": "ST-b-16",
+    "task": "sites",
+    "instruction": "Provide the site annotation and its biological implication.",
+    "input": "{Sequence}",
+    "output": "Residue {StartLocation} marks {Content}."
+  },
+  {
+    "index": "ST-b-17",
+    "task": "sites",
+    "instruction": "Identify and describe the specific site annotated for this residue.",
+    "input": "{Sequence}",
+    "output": "The protein has a site at residue {StartLocation} that represents {Content}."
+  },
+  {
+    "index": "ST-b-18",
+    "task": "sites",
+    "instruction": "Report the site present at the indicated position.",
+    "input": "{Sequence}",
+    "output": "At residue {StartLocation}, the site corresponds to {Content}."
+  },
+  {
+    "index": "ST-b-19",
+    "task": "sites",
+    "instruction": "Using the protein record, describe the site defined at this residue position.",
+    "input": "{Sequence}",
+    "output": "Residue {StartLocation} denotes {Content}."
+  },
+  {
+    "index": "ST-b-20",
+    "task": "sites",
+    "instruction": "Indicate the annotated site and summarize its meaning.",
+    "input": "{Sequence}",
+    "output": "Residue {StartLocation} is linked to {Content}."
+  }
+]

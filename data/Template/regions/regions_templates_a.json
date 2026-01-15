@@ -1,0 +1,143 @@
+[
+  {
+    "index": "RG-a-01",
+    "task": "regions",
+    "instruction": "Given the protein information, could you help me specify the functional region along the sequence?",
+    "input": "{Sequence}",
+    "output": "Residues {StartLocation}–{EndLocation} in this protein correspond to {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-02",
+    "task": "regions",
+    "instruction": "Based on the provided protein data, could you tell me what this sequence region represents?",
+    "input": "{Sequence}",
+    "output": "The segment from residue {StartLocation} to residue {EndLocation} of this protein represents {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-03",
+    "task": "regions",
+    "instruction": "From the given protein record, could you identify which region is functionally annotated?",
+    "input": "{Sequence}",
+    "output": "This region between residues {StartLocation} and {EndLocation} is annotated as {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-04",
+    "task": "regions",
+    "instruction": "According to the protein record, could you indicate the biological role of this region?",
+    "input": "{Sequence}",
+    "output": "The sequence region spanning residues {StartLocation}–{EndLocation} is involved in {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-05",
+    "task": "regions",
+    "instruction": "Can you determine, from the protein data, what functional element this region corresponds to?",
+    "input": "{Sequence}",
+    "output": "The portion of the sequence from {StartLocation} to {EndLocation} corresponds to {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-06",
+    "task": "regions",
+    "instruction": "Given the annotated protein information, what does this sequence region denote?",
+    "input": "{Sequence}",
+    "output": "This region (residues {StartLocation}–{EndLocation}) denotes {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-07",
+    "task": "regions",
+    "instruction": "From the available data, could you explain what this region indicates?",
+    "input": "{Sequence}",
+    "output": "Residues {StartLocation}–{EndLocation} define a region related to {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-08",
+    "task": "regions",
+    "instruction": "According to the protein information, could you describe what this annotated region corresponds to?",
+    "input": "{Sequence}",
+    "output": "This annotated segment, extending from {StartLocation} to {EndLocation}, corresponds to {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-09",
+    "task": "regions",
+    "instruction": "From the protein record, could you specify what type of region is described here?",
+    "input": "{Sequence}",
+    "output": "The region from {StartLocation} to {EndLocation} residues is described as {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-10",
+    "task": "regions",
+    "instruction": "Could you identify the function of this region based on the protein data?",
+    "input": "{Sequence}",
+    "output": "Residues {StartLocation}–{EndLocation} are functionally associated with {Content} ({Description})."
+  },
+
+  {
+    "index": "RG-a-11",
+    "task": "regions",
+    "instruction": "Identify the annotated region and describe its functional implication according to the protein information.",
+    "input": "{Sequence}",
+    "output": "The protein region located at residues {StartLocation}–{EndLocation} is associated with {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-12",
+    "task": "regions",
+    "instruction": "Describe the location and function of the annotated region in the protein record.",
+    "input": "{Sequence}",
+    "output": "This region, covering residues {StartLocation} to {EndLocation}, corresponds to {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-13",
+    "task": "regions",
+    "instruction": "Determine the functional meaning of the region described in the protein record.",
+    "input": "{Sequence}",
+    "output": "Residues {StartLocation}–{EndLocation} define a region that represents {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-14",
+    "task": "regions",
+    "instruction": "Summarize the annotation of the sequence region provided in the protein data.",
+    "input": "{Sequence}",
+    "output": "The sequence from residue {StartLocation} to residue {EndLocation} represents {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-15",
+    "task": "regions",
+    "instruction": "According to the protein record, identify and describe the annotated region.",
+    "input": "{Sequence}",
+    "output": "The annotated region ({StartLocation}–{EndLocation}) relates to {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-16",
+    "task": "regions",
+    "instruction": "Provide the position and biological relevance of the described region.",
+    "input": "{Sequence}",
+    "output": "This region between residues {StartLocation} and {EndLocation} is linked to {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-17",
+    "task": "regions",
+    "instruction": "Identify the region specified in the sequence and its associated function.",
+    "input": "{Sequence}",
+    "output": "Residues {StartLocation}–{EndLocation} correspond to {Content} ({Description}) within this protein."
+  },
+  {
+    "index": "RG-a-18",
+    "task": "regions",
+    "instruction": "Determine the biological significance of the region annotated in the protein record.",
+    "input": "{Sequence}",
+    "output": "The segment {StartLocation}–{EndLocation} indicates {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-19",
+    "task": "regions",
+    "instruction": "Using the given protein information, describe what the identified region represents.",
+    "input": "{Sequence}",
+    "output": "This region extending from {StartLocation} to {EndLocation} represents {Content} ({Description})."
+  },
+  {
+    "index": "RG-a-20",
+    "task": "regions",
+    "instruction": "Identify the annotated region and summarize its meaning based on the protein information.",
+    "input": "{Sequence}",
+    "output": "Residues {StartLocation}–{EndLocation} in this protein denote {Content} ({Description})."
+  }
+]

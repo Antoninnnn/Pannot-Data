@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pannot-data"
+version = "0.1.0"
+description = "A Multi-task, High-resolution Instruction Dataset for Text-based Protein Understanding"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Yuhan Zheng", email = "yuhanz@tamu.edu" }]
+dependencies = [
+  "requests>=2.25",
+]
+
+[project.urls]
+Homepage = "https://github.com/Antoninnnn/Pannot-Data"
+Repository = "https://github.com/Antoninnnn/Pannot-Data"
+Issues = "https://github.com/Antoninnnn/Pannot-Data/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]

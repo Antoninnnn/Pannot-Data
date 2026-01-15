@@ -1,0 +1,37 @@
+[
+  {
+    "index": "ST-d-01",
+    "task": "sites",
+    "instruction": "Given the protein information, could you specify the residue range that defines this site?",
+    "input": "{Sequence}",
+    "output": "Residues {StartLocation}–{EndLocation} form a site associated with {Content}."
+  },
+  {
+    "index": "ST-d-02",
+    "task": "sites",
+    "instruction": "Based on the provided record, identify the site region and describe its functional role.",
+    "input": "{Sequence}",
+    "output": "The site spanning residues {StartLocation}–{EndLocation} corresponds to {Content}."
+  },
+  {
+    "index": "ST-d-03",
+    "task": "sites",
+    "instruction": "According to the protein data, which residues constitute the annotated site?",
+    "input": "{Sequence}",
+    "output": "This site extends from residue {StartLocation} to residue {EndLocation}, representing {Content}."
+  },
+  {
+    "index": "ST-d-04",
+    "task": "sites",
+    "instruction": "Identify the functional site region and summarize its meaning.",
+    "input": "{Sequence}",
+    "output": "The region between residues {StartLocation} and {EndLocation} is annotated as {Content}."
+  },
+  {
+    "index": "ST-d-05",
+    "task": "sites",
+    "instruction": "Describe, based on the protein information, the multi-residue site found in this sequence.",
+    "input": "{Sequence}",
+    "output": "Residues {StartLocation}–{EndLocation} define a multi-residue site related to {Content}."
+  }
+]

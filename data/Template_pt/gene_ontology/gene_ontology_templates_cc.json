@@ -1,0 +1,142 @@
+[
+  {
+    "index": "GO-c-01",
+    "task": "gene_ontology",
+    "instruction": "Based on the protein information, identify the cellular component where this protein is located.",
+    "input": "{Sequence}",
+    "output": "This protein is located in {CC}."
+  },
+  {
+    "index": "GO-c-02",
+    "task": "gene_ontology",
+    "instruction": "From the given protein data, determine the cellular component associated with this protein.",
+    "input": "{Sequence}",
+    "output": "The protein is associated with {CC}."
+  },
+  {
+    "index": "GO-c-03",
+    "task": "gene_ontology",
+    "instruction": "Using the provided protein record, specify which cellular component this protein resides in.",
+    "input": "{Sequence}",
+    "output": "It resides in {CC}."
+  },
+  {
+    "index": "GO-c-04",
+    "task": "gene_ontology",
+    "instruction": "Given the following protein information, identify the cellular component that this protein belongs to.",
+    "input": "{Sequence}",
+    "output": "This protein belongs to {CC}."
+  },
+  {
+    "index": "GO-c-05",
+    "task": "gene_ontology",
+    "instruction": "Determine the cellular component where this protein is mainly found according to the provided protein information.",
+    "input": "{Sequence}",
+    "output": "According to the information, this protein is mainly found in {CC}."
+  },
+  {
+    "index": "GO-c-06",
+    "task": "gene_ontology",
+    "instruction": "Identify which cellular component this protein is part of based on the given protein data.",
+    "input": "{Sequence}",
+    "output": "This protein is part of {CC}."
+  },
+  {
+    "index": "GO-c-07",
+    "task": "gene_ontology",
+    "instruction": "By analyzing the provided protein record, specify the cellular component where this protein is located.",
+    "input": "{Sequence}",
+    "output": "It is located in {CC}."
+  },
+  {
+    "index": "GO-c-08",
+    "task": "gene_ontology",
+    "instruction": "Identify the cellular component in which this protein exists according to the given protein information.",
+    "input": "{Sequence}",
+    "output": "According to the data, this protein exists in {CC}."
+  },
+  {
+    "index": "GO-c-09",
+    "task": "gene_ontology",
+    "instruction": "Determine the cellular component related to this protein based on its record.",
+    "input": "{Sequence}",
+    "output": "This protein is related to {CC}."
+  },
+  {
+    "index": "GO-c-10",
+    "task": "gene_ontology",
+    "instruction": "From the following protein information, identify which cellular component this protein belongs to.",
+    "input": "{Sequence}",
+    "output": "It belongs to {CC}."
+  },
+  {
+    "index": "GO-c-11",
+    "task": "gene_ontology",
+    "instruction": "Based on the protein record, specify the cellular component that characterizes this protein’s location.",
+    "input": "{Sequence}",
+    "output": "This protein is localized to {CC}."
+  },
+  {
+    "index": "GO-c-12",
+    "task": "gene_ontology",
+    "instruction": "According to the provided protein details, determine the cellular component where this protein is present.",
+    "input": "{Sequence}",
+    "output": "This protein is present in {CC}."
+  },
+  {
+    "index": "GO-c-13",
+    "task": "gene_ontology",
+    "instruction": "From the protein information below, identify the cellular component that this protein is found in.",
+    "input": "{Sequence}",
+    "output": "It is found in {CC}."
+  },
+  {
+    "index": "GO-c-14",
+    "task": "gene_ontology",
+    "instruction": "Using the given protein data, identify the cellular component that best represents this protein’s location.",
+    "input": "{Sequence}",
+    "output": "The protein’s location is represented by {CC}."
+  },
+  {
+    "index": "GO-c-15",
+    "task": "gene_ontology",
+    "instruction": "Based on the protein information, indicate the cellular component in which this protein is situated.",
+    "input": "{Sequence}",
+    "output": "This protein is situated in {CC}."
+  },
+  {
+    "index": "GO-c-16",
+    "task": "gene_ontology",
+    "instruction": "Using the provided protein information, determine the cellular component this protein occupies.",
+    "input": "{Sequence}",
+    "output": "It occupies {CC}."
+  },
+  {
+    "index": "GO-c-17",
+    "task": "gene_ontology",
+    "instruction": "Identify the cellular component that this protein is localized within based on the given protein record.",
+    "input": "{Sequence}",
+    "output": "This protein is localized within {CC}."
+  },
+  {
+    "index": "GO-c-18",
+    "task": "gene_ontology",
+    "instruction": "From the given protein information, infer the cellular component where this protein functions.",
+    "input": "{Sequence}",
+    "output": "This protein functions in {CC}."
+  },
+  {
+    "index": "GO-c-19",
+    "task": "gene_ontology",
+    "instruction": "Determine the cellular component that this protein belongs to based on its protein data.",
+    "input": "{Sequence}",
+    "output": "It belongs to {CC}."
+  },
+  {
+    "index": "GO-c-20",
+    "task": "gene_ontology",
+    "instruction": "Given the protein details, identify the cellular component it is located in.",
+    "input": "{Sequence}",
+    "output": "It is located in {CC}."
+  }
+]

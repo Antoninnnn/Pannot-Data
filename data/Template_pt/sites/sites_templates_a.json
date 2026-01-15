@@ -1,0 +1,142 @@
+[
+  {
+    "index": "ST-a-01",
+    "task": "sites",
+    "instruction": "Given the protein information, could you identify the specific site and its function?",
+    "input": "{Sequence}",
+    "output": "This protein contains a site corresponding to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-02",
+    "task": "sites",
+    "instruction": "Based on the provided record, what site is annotated in this protein?",
+    "input": "{Sequence}",
+    "output": "The annotated site is associated with {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-03",
+    "task": "sites",
+    "instruction": "According to the protein data, could you describe the function of the annotated site?",
+    "input": "{Sequence}",
+    "output": "This protein exhibits a site related to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-04",
+    "task": "sites",
+    "instruction": "From the given protein record, could you tell me what site is annotated?",
+    "input": "{Sequence}",
+    "output": "The protein is annotated with a site corresponding to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-05",
+    "task": "sites",
+    "instruction": "Could you identify the type of site present in this protein?",
+    "input": "{Sequence}",
+    "output": "This protein contains a site corresponding to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-06",
+    "task": "sites",
+    "instruction": "According to the protein information, what functional site is present?",
+    "input": "{Sequence}",
+    "output": "The protein includes a site serving as {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-07",
+    "task": "sites",
+    "instruction": "From the annotated record, which site is described in this protein?",
+    "input": "{Sequence}",
+    "output": "The protein contains a site described as {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-08",
+    "task": "sites",
+    "instruction": "Could you specify what functional site occurs in this protein?",
+    "input": "{Sequence}",
+    "output": "The site present in this protein is related to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-09",
+    "task": "sites",
+    "instruction": "From the protein data, what is the biological significance of the annotated site?",
+    "input": "{Sequence}",
+    "output": "The annotated site plays a role in {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-10",
+    "task": "sites",
+    "instruction": "Based on the protein information, could you describe the annotation of the site?",
+    "input": "{Sequence}",
+    "output": "This site corresponds to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-11",
+    "task": "sites",
+    "instruction": "Identify the site annotated in the protein and describe its role.",
+    "input": "{Sequence}",
+    "output": "The protein contains a site representing {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-12",
+    "task": "sites",
+    "instruction": "Describe the site found in the protein according to the record.",
+    "input": "{Sequence}",
+    "output": "The annotated site is linked to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-13",
+    "task": "sites",
+    "instruction": "Determine the function of the site annotated in the protein.",
+    "input": "{Sequence}",
+    "output": "A site corresponding to {Content} is found in this protein ({Description})."
+  },
+  {
+    "index": "ST-a-14",
+    "task": "sites",
+    "instruction": "Summarize the site information provided in the protein record.",
+    "input": "{Sequence}",
+    "output": "The protein contains a site associated with {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-15",
+    "task": "sites",
+    "instruction": "According to the annotation, identify the type of site present in the protein.",
+    "input": "{Sequence}",
+    "output": "This protein includes a site corresponding to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-16",
+    "task": "sites",
+    "instruction": "Provide the annotation and function of the site present in the protein.",
+    "input": "{Sequence}",
+    "output": "The annotated site is functionally related to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-17",
+    "task": "sites",
+    "instruction": "Identify and describe the specific site recorded for this protein.",
+    "input": "{Sequence}",
+    "output": "The protein has a site that corresponds to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-18",
+    "task": "sites",
+    "instruction": "Report the site indicated in the annotation and its functional significance.",
+    "input": "{Sequence}",
+    "output": "The annotated site is involved in {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-19",
+    "task": "sites",
+    "instruction": "Using the protein record, identify the annotated site and its role.",
+    "input": "{Sequence}",
+    "output": "The site corresponds to {Content} ({Description})."
+  },
+  {
+    "index": "ST-a-20",
+    "task": "sites",
+    "instruction": "Summarize what site is represented according to the protein annotation.",
+    "input": "{Sequence}",
+    "output": "This protein contains a site corresponding to {Content} ({Description})."
+  }
+]

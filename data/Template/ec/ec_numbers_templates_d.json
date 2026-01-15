@@ -1,0 +1,142 @@
+[
+  {
+    "index": "EC-d-01",
+    "task": "ec",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}. It belongs to {ClassInfo}, within the {SubclassInfo}, and more precisely to the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-02",
+    "task": "ec",
+    "instruction": "From the provided protein information, identify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumber}. It belongs to {ClassInfo}, under the {SubclassInfo}, and specifically to the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-03",
+    "task": "ec",
+    "instruction": "Using the given protein details, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme is classified with EC number {ECNumber}. It belongs to {ClassInfo}, within the {SubclassInfo}, and particularly to the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-04",
+    "task": "ec",
+    "instruction": "Given the protein information, specify its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has the EC number {ECNumber}. It is part of {ClassInfo}, specifically within the {SubclassInfo}, and more precisely classified as the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-05",
+    "task": "ec",
+    "instruction": "Referencing the provided protein data, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number is {ECNumber}. It belongs to {ClassInfo}, within the {SubclassInfo}, and is classified under the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-06",
+    "task": "ec",
+    "instruction": "From the available protein description, identify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme corresponds to EC number {ECNumber}. It belongs to {ClassInfo}, in the {SubclassInfo}, and particularly to the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-07",
+    "task": "ec",
+    "instruction": "Using the given protein characteristics, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme has EC number {ECNumber}. It belongs to {ClassInfo}, part of the {SubclassInfo}, and more precisely to the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-08",
+    "task": "ec",
+    "instruction": "Based on the protein record provided, find the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme is assigned EC number {ECNumber}. It belongs to {ClassInfo}, under the {SubclassInfo}, and classified as the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-09",
+    "task": "ec",
+    "instruction": "From the protein data, identify the EC number associated with this enzyme.",
+    "input": "{Sequence}",
+    "output": "The enzyme’s EC number is {ECNumber}. It is grouped within {ClassInfo}, specifically in the {SubclassInfo}, and belongs to the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-10",
+    "task": "ec",
+    "instruction": "Using the available protein data, infer its EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}. It is classified within {ClassInfo}, under the {SubclassInfo}, and precisely as the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-11",
+    "task": "ec",
+    "instruction": "Analyze the provided protein information to identify its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumber}. It belongs to {ClassInfo}, within the {SubclassInfo}, and more specifically to the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-12",
+    "task": "ec",
+    "instruction": "Given the protein description, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme’s EC number is {ECNumber}. It is classified as part of {ClassInfo}, in the {SubclassInfo}, and more precisely the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-13",
+    "task": "ec",
+    "instruction": "From the given protein entry, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has the EC number {ECNumber}. It belongs to {ClassInfo}, within the {SubclassInfo}, and classified under the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-14",
+    "task": "ec",
+    "instruction": "Referencing the protein information, specify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number corresponding to this enzyme is {ECNumber}. It belongs to {ClassInfo}, under the {SubclassInfo}, and particularly within the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-15",
+    "task": "ec",
+    "instruction": "Using the protein information provided, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme is identified with EC number {ECNumber}. It belongs to {ClassInfo}, specifically in the {SubclassInfo}, and more precisely to the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-16",
+    "task": "ec",
+    "instruction": "Based on the given protein information, identify its EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme has EC number {ECNumber}. It is classified within {ClassInfo}, in the {SubclassInfo}, and particularly under the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-17",
+    "task": "ec",
+    "instruction": "From the provided protein record, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme is assigned EC number {ECNumber}. It belongs to {ClassInfo}, within the {SubclassInfo}, and more specifically in the {SubSubclassInfo} category."
+  },
+  {
+    "index": "EC-d-18",
+    "task": "ec",
+    "instruction": "Using the protein data given, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}. It belongs to {ClassInfo}, under the {SubclassInfo}, and is classified as the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-19",
+    "task": "ec",
+    "instruction": "Based on the available protein data, infer the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme is categorized with EC number {ECNumber}. It belongs to {ClassInfo}, in the {SubclassInfo}, and more precisely within the {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-d-20",
+    "task": "ec",
+    "instruction": "From the protein information available, identify the EC number of this enzyme.",
+    "input": "{Sequence}",
+    "output": "This enzyme has EC number {ECNumber}. It belongs to {ClassInfo}, within the {SubclassInfo}, and more precisely to the {SubSubclassInfo}."
+  }
+]

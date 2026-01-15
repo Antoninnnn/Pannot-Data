@@ -1,0 +1,9 @@
+[
+  {
+    "index": "EC-e-01",
+    "task": "ec",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}. It belongs to {ClassInfo}, within the {SubclassInfo}, and functions by catalyzing reactions in which {SubSubclassInfo}."
+  }
+]

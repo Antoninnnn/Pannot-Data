@@ -1,0 +1,142 @@
+[
+  {
+    "index": "SL-d-01",
+    "task": "subcellular_location",
+    "instruction": "Based on the provided protein information, identify where the protein is localized within the cell.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-02",
+    "task": "subcellular_location",
+    "instruction": "Determine the cellular compartment or region in which this protein is found, using the provided protein data.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-03",
+    "task": "subcellular_location",
+    "instruction": "From the given protein information, specify the subcellular compartment(s) where the protein resides.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-04",
+    "task": "subcellular_location",
+    "instruction": "Analyze the protein details to determine its subcellular localization.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-05",
+    "task": "subcellular_location",
+    "instruction": "Identify the specific region(s) of the cell where this protein is primarily localized.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-06",
+    "task": "subcellular_location",
+    "instruction": "Using the protein information provided, determine the subcellular location or compartment associated with this protein.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-07",
+    "task": "subcellular_location",
+    "instruction": "Identify the intracellular or extracellular location where this protein is commonly found.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-08",
+    "task": "subcellular_location",
+    "instruction": "From the available protein information, specify the main subcellular location(s) where the protein is detected.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-09",
+    "task": "subcellular_location",
+    "instruction": "Examine the protein data and indicate its localization within the cell.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-10",
+    "task": "subcellular_location",
+    "instruction": "Identify the subcellular region or compartment where this protein functions or is stored.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-11",
+    "task": "subcellular_location",
+    "instruction": "According to the provided protein record, determine its localization inside or outside the cell.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-12",
+    "task": "subcellular_location",
+    "instruction": "Describe where within the cell this protein is situated based on its characteristics.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-13",
+    "task": "subcellular_location",
+    "instruction": "Identify the compartment, membrane, or organelle where this protein is localized.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-14",
+    "task": "subcellular_location",
+    "instruction": "Using the protein’s properties, indicate the subcellular region(s) in which it resides.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-15",
+    "task": "subcellular_location",
+    "instruction": "From the given information, determine the likely site of this protein within the cell.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-16",
+    "task": "subcellular_location",
+    "instruction": "Identify the major cellular compartment where this protein is present.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-17",
+    "task": "subcellular_location",
+    "instruction": "Refer to the protein information to specify its subcellular localization pattern.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-18",
+    "task": "subcellular_location",
+    "instruction": "Based on the protein’s annotation, identify the site within the cell where it is localized.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-19",
+    "task": "subcellular_location",
+    "instruction": "Using the given data, describe the cellular environment where this protein can be found.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  },
+  {
+    "index": "SL-d-20",
+    "task": "subcellular_location",
+    "instruction": "Identify the intracellular or membrane-associated region where this protein is localized.",
+    "input": "{Sequence}",
+    "output": "{Name}: {SubcellularLocations}"
+  }
+]

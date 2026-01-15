@@ -1,0 +1,72 @@
+[
+  {
+    "index": "EC-k-01",
+    "task": "ec",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}."
+  },
+  {
+    "index": "EC-k-02",
+    "task": "ec",
+    "instruction": "From the given protein details, identify the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "This enzyme has the EC number {ECNumber}."
+  },
+  {
+    "index": "EC-k-03",
+    "task": "ec",
+    "instruction": "Using the provided protein information, determine its EC classification number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}."
+  },
+  {
+    "index": "EC-k-04",
+    "task": "ec",
+    "instruction": "Given the information about this protein, specify its EC number.",
+    "input": "{Sequence}",
+    "output": "The enzyme is assigned EC number {ECNumber}."
+  },
+  {
+    "index": "EC-k-05",
+    "task": "ec",
+    "instruction": "Referencing the provided protein data, determine the EC number for this enzyme.",
+    "input": "{Sequence}",
+    "output": "This enzyme’s EC number is {ECNumber}."
+  },
+  {
+    "index": "EC-k-06",
+    "task": "ec",
+    "instruction": "Based on the protein description, identify its EC number and corresponding class.",
+    "input": "{Sequence}",
+    "output": "The EC number is {ECNumber}."
+  },
+  {
+    "index": "EC-k-07",
+    "task": "ec",
+    "instruction": "From the available protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}."
+  },
+  {
+    "index": "EC-k-08",
+    "task": "ec",
+    "instruction": "Using the given protein information, identify which EC class this enzyme belongs to.",
+    "input": "{Sequence}",
+    "output": "This enzyme is classified with EC number {ECNumber}."
+  },
+  {
+    "index": "EC-k-09",
+    "task": "ec",
+    "instruction": "Analyze the provided protein information to find its EC classification.",
+    "input": "{Sequence}",
+    "output": "The enzyme’s EC number is {ECNumber}."
+  },
+  {
+    "index": "EC-k-10",
+    "task": "ec",
+    "instruction": "Given the protein characteristics, determine its EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}."
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "index": "EC-g-01",
+    "task": "ec",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}. It belongs to {ClassInfo}, which are enzymes {SubclassInfo}, particularly {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-g-02",
+    "task": "ec",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}. It belongs to {ClassInfo}, enzymes {SubclassInfo}, mainly {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-g-03",
+    "task": "ec",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}. It belongs to {ClassInfo}, which are enzymes {SubclassInfo}, especially {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-g-04",
+    "task": "ec",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}. It belongs to {ClassInfo}, which include enzymes {SubclassInfo}, particularly active {SubSubclassInfo}."
+  },
+  {
+    "index": "EC-g-05",
+    "task": "ec",
+    "instruction": "Based on the provided protein information, determine the enzyme’s EC number.",
+    "input": "{Sequence}",
+    "output": "The EC number of this enzyme is {ECNumber}. It is part of {ClassInfo}, enzymes {SubclassInfo}, primarily functioning {SubSubclassInfo}."
+  }
+]
