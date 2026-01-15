@@ -1,5 +1,17 @@
 # macOS
 .DS_Store
 
-# PyCharm / IntelliJ
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
 .idea/
+.vscode/
+
+# venv
+.venv/
+venv/
+env/
