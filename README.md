@@ -1,5 +1,7 @@
 # Pannot-Data: A Multi-task, High-resolution Instruction Dataset for Text-based Protein Understanding
 
+🤗 **Hugging Face Dataset:** https://huggingface.co/datasets/yzheng-ee/Pannot-Data
+
 ## Versioning
 The current release is **v1.0**
 
@@ -108,12 +110,12 @@ You can use the following command to generate instruction samples across all sup
 bash scripts/run.sh \
   --tasks comments cross_references ec features \
   --ids_rel splits/train_condensed_ids.txt \
-  --out_subdir train_condensed_samples \
+  --out_subdir train_condensed_samples_pt \
   --template_subdir Template_pt \
   --batch_size 100 \
   --output_format tsv
 ```
-This command generates the training samples using `splits/train_condensed_ids.txt`; to generate the full set of evaluation samples, you can replace `--ids_rel` with `splits/test_id_ids.txt`, `splits/test_ood_family_ids.txt`, `splits/val_id_ids.txt`, and `splits/val_ood_family_ids.txt`, and correspondingly set `--out_subdir` to `test_id_samples`, `test_ood_family_samples`, `val_id_samples`, and `val_ood_family_samples`, respectively.
+This command generates the training samples using `splits/train_condensed_ids.txt`; to generate the full set of evaluation samples, you can replace `--ids_rel` with `splits/test_id_ids.txt`, `splits/test_ood_family_ids.txt`, `splits/val_id_ids.txt`, and `splits/val_ood_family_ids.txt`, and correspondingly set `--out_subdir` to `test_id_samples_pt`, `test_ood_family_samples_pt`, `val_id_samples_pt`, and `val_ood_family_samples_pt`, respectively.
 
 
 

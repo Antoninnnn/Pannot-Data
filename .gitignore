@@ -21,3 +21,6 @@ htmlcov/
 .venv/
 venv/
 env/
+
+# Generated samples
+data/Sample/
