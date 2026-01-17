@@ -6,22 +6,20 @@ from .settings import Settings, CommentsTemplates, CrossReferencesTemplates, ECT
 def build_parser():
     p = argparse.ArgumentParser()
 
-    # Task selector
-    p.add_argument(  ##########
-        "--tasks",  ##########
-        required=True,  ##########
-        nargs="+",  ##########
-        choices=("comments", "features", "ec", "cross_references"),  ##########
-        help='Which task(s) to run (space-separated). Choices: comments | features | ec | cross_references',  ##########
-    )  ##########
-
     # Runtime inputs
+    p.add_argument(
+        "--tasks",
+        required=True,
+        nargs="+",
+        choices=("comments", "features", "ec", "cross_references"),
+        help='Which task(s) to run (space-separated). Choices: comments | features | ec | cross_references',
+    )
     p.add_argument("--ids", required=True, help="Protein ID list file (txt)")
     p.add_argument("--out_dir", required=True, help="Output directory")
     p.add_argument("--batch_size", type=int, default=100, help="Write buffer size")
     p.add_argument("--output_format", default="jsonl", help="Output format: jsonl | csv | tsv")
 
-    # ---- comments templates ----
+    # comments
     p.add_argument("--ca_a", default=None, help="Catalytic activity template file A (json)")
     p.add_argument("--cf_a", default=None, help="Cofactor template file A (json)")
     p.add_argument("--cf_b", default=None, help="Cofactor template file B (json)")
@@ -34,12 +32,12 @@ def build_parser():
     p.add_argument("--pw_c", default=None, help="Pathway template file C (json)")
     p.add_argument("--pw_d", default=None, help="Pathway template file D (json)")
 
-    # ---- cross_references templates ----
+    # cross_references
     p.add_argument("--go_bp", default=None, help="GO Biological Process templates (json)")
     p.add_argument("--go_mf", default=None, help="GO Molecular Function templates (json)")
     p.add_argument("--go_cc", default=None, help="GO Cellular Component templates (json)")
 
-    # ---- ec templates ----
+    # ec
     p.add_argument("--ec_a", default=None, help="EC templates A (json)")
     p.add_argument("--ec_b", default=None, help="EC templates B (json)")
     p.add_argument("--ec_c", default=None, help="EC templates C (json)")
@@ -52,7 +50,7 @@ def build_parser():
     p.add_argument("--ec_j", default=None, help="EC templates J (json)")
     p.add_argument("--ec_k", default=None, help="EC templates K (json)")
 
-    # ---- features templates ----
+    # features
     p.add_argument("--rg_a", default=None, help="Regions templates A (json)")
     p.add_argument("--rg_b", default=None, help="Regions templates B (json)")
     p.add_argument("--st_a", default=None, help="Sites templates A (json)")
@@ -83,15 +81,15 @@ def _validate_required(task_name, required):
 def parse_settings():
     args = build_parser().parse_args()
 
-    tasks = tuple(args.tasks)  ##########
-    tasks_set = set(tasks)  ##########
+    tasks = tuple(args.tasks)
+    tasks_set = set(tasks)
 
     comments = None
     cross_references = None
     ec = None
     features = None
 
-    if "comments" in tasks_set:  ##########
+    if "comments" in tasks_set:
         comments = CommentsTemplates(
             ca_a=_to_path(args.ca_a),
             cf_a=_to_path(args.cf_a),
@@ -115,7 +113,7 @@ def parse_settings():
         }
         _validate_required("comments", required)
 
-    if "cross_references" in tasks_set:  ##########
+    if "cross_references" in tasks_set:
         cross_references = CrossReferencesTemplates(
             go_bp=_to_path(args.go_bp),
             go_mf=_to_path(args.go_mf),
@@ -128,7 +126,7 @@ def parse_settings():
         }
         _validate_required("cross_references", required)
 
-    if "ec" in tasks_set:  ##########
+    if "ec" in tasks_set:
         ec = ECTemplates(
             ec_a=_to_path(args.ec_a),
             ec_b=_to_path(args.ec_b),
@@ -151,7 +149,7 @@ def parse_settings():
         }
         _validate_required("ec", required)
 
-    if "features" in tasks_set:  ##########
+    if "features" in tasks_set:
         features = FeaturesTemplates(
             rg_a=_to_path(args.rg_a),
             rg_b=_to_path(args.rg_b),
@@ -168,12 +166,12 @@ def parse_settings():
         }
         _validate_required("features", required)
 
-    s = Settings(  ##########
-        tasks=tasks,  ##########
+    s = Settings(
+        tasks=tasks,
         ids_path=Path(args.ids),
         out_dir=Path(args.out_dir),
         batch_size=args.batch_size,
-        output_format=args.output_format,  ##########
+        output_format=args.output_format,
         comments=comments,
         cross_references=cross_references,
         ec=ec,
